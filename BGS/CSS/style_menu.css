@@ -1,0 +1,94 @@
+
+/*
+.staticMenuItemStyle {
+text-align:center;
+display:block;
+padding-left:2px;
+padding-right:20px;
+margin-left:0;
+
+ 
+}
+
+.staticMenuItemSelectedStyle 
+{
+border:solid 1px #000;
+width:25px;
+background-image:url(../Images/orangeuti.JPG); 
+}
+.staticHoverStyle {
+background-image:url(../Images/orangeuti.JPG); 
+height:30px;
+}
+.menuItem {
+display:block;
+
+
+}
+*/
+*/
+.dynamicMenuItemStyle {
+border:solid 0px #000;
+background-color:Silver;
+color:Red;
+height:30px;
+z-index:200;
+position:relative;
+}
+.background {
+border:solid 0px #000;
+background-image:url('../Images/123.jpg');
+ top:75px;
+ left:0px; 
+ position :absolute;
+ 
+ width:100%;
+    height: 31px;
+}
+
+/*
+
+
+.NavigationMenu {
+font-family:Verdana;
+font-size:10pt;
+color: #FFF;
+font-weight:600;
+z-index:101;
+background-image:url(../Images/123.jpg);
+}
+
+#h {
+background:#CCCFFF;
+padding:10px 0 6px 10px;
+}
+
+#e {
+border:solid 0px #919191;
+background-image:url('../Images/sub.gif');
+padding:0 0 10px;
+width: 500px;
+top:0px;
+left:100px;
+position :fixed;
+}
+
+.menuItemMouseOver,.menuItemSelected{
+border:solid 0px Navy;
+background-image:url(../Images/123.jpg);
+}
+
+.NavigationMenu A:link,.NavigationMenu A:visited,.NavigationMenu A:active {
+text-decoration:none;
+color:#FFF;
+display:block;
+}
+
+.currentNodeStyle,.nodeStyle,.rootNodeStyle,a.siteMapPath {
+text-decoration:none;
+font-family:Verdana;
+font-size:10pt;
+
+
+}
+*/

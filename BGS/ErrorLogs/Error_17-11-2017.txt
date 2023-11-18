@@ -1,0 +1,53 @@
+„
+>>
+ Error Occurred:--11/17/2017 5:14:34 PM>>
+Logon failure: unknown user name or bad password.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\„
+>>
+ Error Occurred:--11/17/2017 5:16:37 PM>>
+Logon failure: unknown user name or bad password.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\©
+>>
+ Error Occurred:--11/17/2017 5:17:01 PM>>
+Login failed. The login is from an untrusted domain and cannot be used with Windows authentication.\>>
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at BGS.Datalayer.IsUserValidForAccess(String EmpID, String PageName) in D:\Prakash\BGS\BGS\Data\DataLayer.cs:line 994\ñ
+>>
+ Error Occurred:--11/17/2017 5:20:03 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--11/17/2017 5:27:47 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--11/17/2017 5:29:31 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\

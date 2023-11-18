@@ -1,0 +1,14 @@
+ˆ
+>>
+ Error Occurred:--11/23/2018 2:13:41 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 577\“
+>>
+ Error Occurred:--11/23/2018 2:25:52 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 577\

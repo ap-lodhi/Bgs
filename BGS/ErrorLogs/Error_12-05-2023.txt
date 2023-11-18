@@ -1,0 +1,77 @@
+æ
+>>
+ Error Occurred:--5/12/2023 2:42:34 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in C:\final.net_project\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 924\æ
+>>
+ Error Occurred:--5/12/2023 2:46:59 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in C:\final.net_project\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 924\Ü
+>>
+ Error Occurred:--5/12/2023 3:19:26 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:19:29 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ý
+>>
+ Error Occurred:--5/12/2023 3:20:12 PM>>
+Multiple controls with the same ID 'Span2' were found. FindControl requires that controls have unique IDs.\>>
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:20:21 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:29:06 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:29:16 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ý
+>>
+ Error Occurred:--5/12/2023 3:49:01 PM>>
+Multiple controls with the same ID 'Span2' were found. FindControl requires that controls have unique IDs.\>>
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:50:15 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ý
+>>
+ Error Occurred:--5/12/2023 3:50:27 PM>>
+Multiple controls with the same ID 'Span2' were found. FindControl requires that controls have unique IDs.\>>
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:50:35 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ý
+>>
+ Error Occurred:--5/12/2023 3:51:34 PM>>
+Multiple controls with the same ID 'Span2' were found. FindControl requires that controls have unique IDs.\>>
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FillNamedControlsTable(Control namingContainer, ControlCollection controls)
+   at System.Web.UI.Control.FindControl(String id, Int32 pathOffset)
+   at System.Web.UI.Control.FindControl(String id)
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\Ü
+>>
+ Error Occurred:--5/12/2023 3:51:55 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.CalculateVotes() in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1316\õ
+>>
+ Error Occurred:--5/12/2023 4:18:39 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.GetVoteMaster(GridViewSortEventArgs sort) in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 1427\

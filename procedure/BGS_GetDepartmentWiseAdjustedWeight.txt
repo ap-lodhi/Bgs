@@ -1,0 +1,73 @@
+USE [BGS]
+GO
+/****** Object:  StoredProcedure [dbo].[BGS_GetDepartmentWiseAdjustedWeight]    Script Date: 12/20/2018 12:53:06 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[BGS_GetDepartmentWiseAdjustedWeight]
+ (
+ @QuarterID INT = NULL,            
+ @VoterName   VARCHAR(150)=NULL ,        
+ @SectorName  VARCHAR(100)=NULL,        
+ @BrokerName VARCHAR(150)=NULL  
+ )
+ AS
+begin
+---------sdfosfds 
+declare @Column_votersum_dosr_dfm decimal(10,2)
+declare @Column_votersum_dod decimal(10,2)
+declare @Column_votersum_dofa decimal(10,2)
+
+set @Column_votersum_dosr_dfm=(select sum(each_voter_sum) as dept_sum from
+								(select SUM(VM.Score) as each_voter_sum,UM.UserName,DM.DeptName from UserMaster UM 
+									INNER JOIN GradingMaster GM ON UM.EmpID=GM.EmpID 
+									INNER JOIN VoteMaster VM ON VM.GradingID=GM.GradingID 
+									INNER JOIN DepartmentMaster DM ON DM.DeptID=UM.DeptID 
+									group by UM.UserName,DM.DeptName HAVING DM.DeptName IS NOT NULL AND DM.Deptname IN('DOSR','DFM')) AS T1) -- group by T1.UserName,T1.DeptName
+
+set @Column_votersum_dod=(select sum(each_voter_sum) as dept_sum from
+								 (select SUM(VM.Score) as each_voter_sum,UM.UserName,DM.DeptName from UserMaster UM 
+									INNER JOIN GradingMaster GM ON UM.EmpID=GM.EmpID 
+									INNER JOIN VoteMaster VM ON VM.GradingID=GM.GradingID 
+									INNER JOIN DepartmentMaster DM ON DM.DeptID=UM.DeptID 
+									group by UM.UserName,DM.DeptName HAVING DM.DeptName IS NOT NULL AND DM.Deptname IN('DOD')) AS T1) -- group by T1.UserName,T1.DeptName
+
+
+set @Column_votersum_dofa=(select sum(each_voter_sum) as dept_sum from
+								 (select SUM(VM.Score) as each_voter_sum,UM.UserName,DM.DeptName from UserMaster UM 
+									INNER JOIN GradingMaster GM ON UM.EmpID=GM.EmpID 
+									INNER JOIN VoteMaster VM ON VM.GradingID=GM.GradingID 
+									INNER JOIN DepartmentMaster DM ON DM.DeptID=UM.DeptID 
+									group by UM.UserName,DM.DeptName HAVING DM.DeptName IS NOT NULL AND DM.Deptname IN('DOFA')) AS T1) -- group by T1.UserName,T1.DeptName
+
+
+
+				 
+select T1.UserName,t1.DeptName,((each_voter_sum/@Column_votersum_dosr_dfm)*7000)  adjusted_weight,t1.each_voter_sum from (select SUM(VM.Score)  each_voter_sum,UM.UserName,DM.DeptName 
+                     from UserMaster UM 
+					 INNER JOIN GradingMaster GM ON UM.EmpID=GM.EmpID 
+					 INNER JOIN VoteMaster VM ON VM.GradingID=GM.GradingID 
+					 INNER JOIN DepartmentMaster DM ON DM.DeptID=UM.DeptID 
+					 group by UM.UserName,DM.DeptName HAVING DM.DeptName IS NOT NULL AND DM.Deptname IN('DOSR','DFM')) AS T1 -- group by T1.UserName,T1.DeptName
+
+UNION
+select T1.UserName,t1.DeptName,((each_voter_sum/@Column_votersum_dod)*2500)  adjusted_weight,t1.each_voter_sum from (select SUM(VM.Score)  each_voter_sum,UM.UserName,DM.DeptName 
+                     from UserMaster UM 
+					 INNER JOIN GradingMaster GM ON UM.EmpID=GM.EmpID 
+					 INNER JOIN VoteMaster VM ON VM.GradingID=GM.GradingID 
+					 INNER JOIN DepartmentMaster DM ON DM.DeptID=UM.DeptID 
+					 group by UM.UserName,DM.DeptName HAVING DM.DeptName IS NOT NULL AND DM.Deptname IN('DOD')) AS T1 -- group by T1.UserName,T1.DeptName
+
+UNION
+select T1.UserName,t1.DeptName,((each_voter_sum/@Column_votersum_dofa)*500)  adjusted_weight,t1.each_voter_sum from (select SUM(VM.Score)  each_voter_sum,UM.UserName,DM.DeptName 
+                     from UserMaster UM 
+					 INNER JOIN GradingMaster GM ON UM.EmpID=GM.EmpID 
+					 INNER JOIN VoteMaster VM ON VM.GradingID=GM.GradingID 
+					 INNER JOIN DepartmentMaster DM ON DM.DeptID=UM.DeptID 
+					 group by UM.UserName,DM.DeptName HAVING DM.DeptName IS NOT NULL AND DM.Deptname IN('DOFA')) AS T1 -- group by T1.UserName,T1.DeptName
+
+
+ END
+
+ exec BGS_GetDepartmentWiseAdjustedWeight null,null,null

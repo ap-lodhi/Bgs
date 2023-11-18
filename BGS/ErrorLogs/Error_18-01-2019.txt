@@ -1,0 +1,89 @@
+û
+>>
+ Error Occurred:--1/18/2019 3:09:58 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerAdjustedScore.BindDepartmentName() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerAdjustedScore.aspx.cs:line 103\û
+>>
+ Error Occurred:--1/18/2019 3:10:10 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerAdjustedScore.BindDepartmentName() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerAdjustedScore.aspx.cs:line 103\û
+>>
+ Error Occurred:--1/18/2019 3:10:46 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerAdjustedScore.BindDepartmentName() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerAdjustedScore.aspx.cs:line 103\û
+>>
+ Error Occurred:--1/18/2019 3:11:46 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerAdjustedScore.BindDepartmentName() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerAdjustedScore.aspx.cs:line 103\û
+>>
+ Error Occurred:--1/18/2019 3:16:46 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerAdjustedScore.BindDepartmentName() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerAdjustedScore.aspx.cs:line 103\û
+>>
+ Error Occurred:--1/18/2019 3:19:36 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerAdjustedScore.BindDepartmentName() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerAdjustedScore.aspx.cs:line 103\ò
+>>
+ Error Occurred:--1/18/2019 4:48:50 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 843\°
+>>
+ Error Occurred:--1/18/2019 7:12:56 PM>>
+Mailbox unavailable. The server response was: <sachin.tri@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\²
+>>
+ Error Occurred:--1/18/2019 7:16:25 PM>>
+Mailbox unavailable. The server response was: <parag.chavan@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\¯
+>>
+ Error Occurred:--1/18/2019 7:19:16 PM>>
+Mailbox unavailable. The server response was: <preethirs@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\³
+>>
+ Error Occurred:--1/18/2019 7:21:17 PM>>
+Mailbox unavailable. The server response was: <daylynn.pinto@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\·
+>>
+ Error Occurred:--1/18/2019 7:23:43 PM>>
+Mailbox unavailable. The server response was: <amit.premchandani@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\³
+>>
+ Error Occurred:--1/18/2019 7:23:43 PM>>
+Mailbox unavailable. The server response was: <ritesh.rathod@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\°
+>>
+ Error Occurred:--1/18/2019 7:23:43 PM>>
+Mailbox unavailable. The server response was: <kamal.gada@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\³
+>>
+ Error Occurred:--1/18/2019 7:23:43 PM>>
+Mailbox unavailable. The server response was: <shrawan.goyal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\³
+>>
+ Error Occurred:--1/18/2019 7:31:48 PM>>
+Mailbox unavailable. The server response was: <vishal.chopda@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\µ
+>>
+ Error Occurred:--1/18/2019 7:31:49 PM>>
+Mailbox unavailable. The server response was: <deepesh.agarwal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\

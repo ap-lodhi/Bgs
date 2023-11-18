@@ -1,0 +1,274 @@
+﻿.clsSearch {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #eb7221; FONT-FAMILY: Arial
+}
+.clsBgPaysmart {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Arial; BACKGROUND-COLOR: #eb7221; TEXT-ALIGN: left
+}
+.clsBgLine {
+	BACKGROUND-COLOR: #b4b4b4
+}
+
+.clsMenuLink {
+ FONT-WEIGHT: bold;FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsMenuLink A:hover {
+ FONT-WEIGHT: bold;FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION:underline
+}
+.clsMenuLink A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsMenuLink A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsMenuLink A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsMenuLink A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+
+.clsMenuLink_H {
+ FONT-WEIGHT: NONE;FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsMenuLink_H A:hover {
+ FONT-WEIGHT: bold;FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION:underline
+}
+.clsMenuLink_H A {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsMenuLink_H A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsMenuLink_H A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsMenuLink_H A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+
+
+
+
+
+
+
+.clsMenuLink_details {
+	 FONT-WEIGHT: normal;FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+
+
+
+
+
+
+
+.clsContent {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-ALIGN: justify
+}
+
+.clsClientsContent {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-ALIGN: justify
+}
+.clsContentHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsCareersHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Arial
+}
+
+.clsBgline1 {
+	BACKGROUND-COLOR: #f0f0f0
+}
+.clsBgline2 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #b4b4b4
+}
+
+.clsLinkActive {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; BACKGROUND-COLOR: #f7f3f7
+}
+
+.clsContentLinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsContentLinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsContentLinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsContentLinks A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.clsContentLinks A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsContentLinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsTop {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial
+}
+.clsTop A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial
+}
+.clsTop A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial
+}
+.clsTop A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial
+}
+.clsTop A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsTop A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+
+.clsHomePageContent {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsBgTech {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Arial; BACKGROUND-COLOR: #385c98
+}
+.clsInformation {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Arial; BACKGROUND-COLOR: #385c98
+}
+.clsLinksorange {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #eb7221; FONT-FAMILY: Arial
+}
+.clsLinksorange A {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #eb7222; FONT-FAMILY: Arial
+}
+.clsLinksorange A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #eb7223; FONT-FAMILY: Arial
+}
+.clsLinksorange A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #eb7224; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.clsLinksorange A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #eb7225; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsLinksorange A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #eb7226; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsLinksBlack {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: BLACK; FONT-FAMILY: Arial
+}
+.clsLinksBlack A {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: BLACK; FONT-FAMILY: Arial
+}
+.clsLinksBlack A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: BLACK; FONT-FAMILY: Arial
+}
+.clsLinksBlack A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: BLACK; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.clsLinksBlack A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: BLACK; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsLinksBlack A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: BLACK; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsHomeBlueLinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial
+}
+.clsHomeBlueLinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial
+}
+.clsHomeBlueLinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial
+}
+.clsHomeBlueLinks A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.clsHomeBlueLinks A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsHomeBlueLinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsHomeBluecontent1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial; TEXT-ALIGN: justify
+}
+.clsWelcomeContent {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial; TEXT-ALIGN: justify
+}
+
+.clsAmount {
+	FONT-WEIGHT: lighter; FONT-SIZE: 11px; COLOR: #990000; FONT-FAMILY: Arial
+}
+.clsTextArea {
+	BORDER-RIGHT: #b4b4b4 1px solid; BORDER-TOP: #b4b4b4 1px solid; BORDER-LEFT: #b4b4b4 1px solid; BORDER-BOTTOM: #b4b4b4 1px solid
+}
+.clsTextStyle {
+	FONT-SIZE: 11px; FONT-FAMILY: arial; TEXT-ALIGN: left
+}
+.clsTextTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: arial
+}
+
+.clsWelcome {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #5070a5; FONT-FAMILY: 'Arial Narrow' , 'Arial Black' , Arial, Monospace
+}
+
+.headertxt {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #2f85b3; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.greybg {
+	BACKGROUND-COLOR: #cccccc
+}
+.text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.textbox {
+	BORDER-RIGHT: #b4b4b4 1px solid; BORDER-TOP: #b4b4b4 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #b4b4b4 1px solid; COLOR: #333333; BORDER-BOTTOM: #b4b4b4 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsBody {
+	MARGIN: 0px
+}
+.clsSitemap {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+
+.clsInfotonQuickstats {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #256992; FONT-FAMILY: Arial
+}
+.clsRptLinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsRptLinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsRptLinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial
+}
+.clsRptLinks A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #990000; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsRptLinks A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsRptLinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsEndlinks {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #d37141; FONT-FAMILY: Arial
+}
+.clsEndlinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #d37141; FONT-FAMILY: Arial
+}
+.clsEndlinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #d37141; FONT-FAMILY: Arial
+}
+.clsEndlinks A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #be5b2c; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.clsEndlinks A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #d37141; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsEndlinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #d37141; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.clsTechSkillTblBg {
+	BACKGROUND-COLOR: #d3d3d3
+}

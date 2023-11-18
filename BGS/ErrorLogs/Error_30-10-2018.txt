@@ -1,0 +1,14 @@
+•
+>>
+ Error Occurred:--10/30/2018 2:47:17 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 457\²
+>>
+ Error Occurred:--10/30/2018 3:41:38 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\GradingMaster.aspx.cs:line 759
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\GradingMaster.aspx.cs:line 537\

@@ -1,0 +1,11 @@
+Ÿ
+>>
+ Error Occurred:--12/20/2018 4:16:46 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 647
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\Ÿ
+>>
+ Error Occurred:--12/20/2018 8:24:02 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 647
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\

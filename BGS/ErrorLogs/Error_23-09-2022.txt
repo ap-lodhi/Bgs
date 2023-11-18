@@ -1,0 +1,25 @@
+Ò
+>>
+ Error Occurred:--9/23/2022 11:08:00 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt16(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\BrokerMaster.aspx.cs:line 607\Ò
+>>
+ Error Occurred:--9/23/2022 11:09:40 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt16(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\BrokerMaster.aspx.cs:line 607\Ò
+>>
+ Error Occurred:--9/23/2022 11:24:28 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt16(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\BrokerMaster.aspx.cs:line 607\

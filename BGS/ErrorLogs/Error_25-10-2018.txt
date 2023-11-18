@@ -1,0 +1,11 @@
+ü
+>>
+ Error Occurred:--10/25/2018 5:12:34 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\Data\DataLayer.cs:line 646
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 378\ü
+>>
+ Error Occurred:--10/25/2018 5:27:30 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\Data\DataLayer.cs:line 646
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 378\

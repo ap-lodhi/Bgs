@@ -1,0 +1,236 @@
+ò
+>>
+ Error Occurred:--12/15/2017 10:27:45 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/15/2017 10:30:03 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/15/2017 10:30:52 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/15/2017 10:33:46 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/15/2017 10:34:58 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/15/2017 10:36:21 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/15/2017 12:37:48 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 3:53:20 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 3:56:12 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 4:03:09 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 4:06:26 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 4:38:45 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 4:46:53 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\“
+>>
+ Error Occurred:--12/15/2017 4:55:55 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Prakash\BGS\BGS\GradingMaster.aspx.cs:line 378\ñ
+>>
+ Error Occurred:--12/15/2017 4:57:50 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 5:03:17 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 6:33:24 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--12/15/2017 6:36:04 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ä
+>>
+ Error Occurred:--12/15/2017 6:55:56 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:00 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:01 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:02 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:03 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:10 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:11 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\ä
+>>
+ Error Occurred:--12/15/2017 6:56:12 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 582\™
+>>
+ Error Occurred:--12/15/2017 6:56:23 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BGS.BrokerMaster.CancelBrokerGrading(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 619\°
+>>
+ Error Occurred:--12/15/2017 7:00:15 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e)\°
+>>
+ Error Occurred:--12/15/2017 7:00:16 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e)\°
+>>
+ Error Occurred:--12/15/2017 7:00:16 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e)\°
+>>
+ Error Occurred:--12/15/2017 7:00:16 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e)\

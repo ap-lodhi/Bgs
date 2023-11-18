@@ -1,0 +1,53 @@
+œ
+>>
+ Error Occurred:--1/2/2019 2:48:55 PM>>
+ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.\>>
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BGS.Datalayer.InsertUpdateUser(String EmpID, String strPwd, Int32 intRoleID, Int32 intDeptID, Boolean blIsActive, String strEmailID, String strName, Boolean blIsForce, Boolean blIsUTI, String strCreatedBy, Single fltWeight, Int32 intUserType, String BrokerName, Int32 MaxLimit, Int32 DofaCode, Int32 BrokerNameID, Int32 UserID) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\Data\DataLayer.cs:line 392\
+>>
+ Error Occurred:--1/2/2019 3:02:34 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\
+>>
+ Error Occurred:--1/2/2019 3:03:13 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\´
+>>
+ Error Occurred:--1/2/2019 3:04:29 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\´
+>>
+ Error Occurred:--1/2/2019 3:07:25 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\´
+>>
+ Error Occurred:--1/2/2019 3:07:46 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\´
+>>
+ Error Occurred:--1/2/2019 3:14:10 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\´
+>>
+ Error Occurred:--1/2/2019 3:16:01 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\´
+>>
+ Error Occurred:--1/2/2019 3:16:22 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\
+>>
+ Error Occurred:--1/2/2019 3:20:54 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\

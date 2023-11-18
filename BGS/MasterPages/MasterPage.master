@@ -1,0 +1,223 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="BGS.MasterPage" %>
+
+<%@ Import Namespace="BGS" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="Ajax" %>
+<%@ Register Src="~/UserControls/usctrl_UserDetails.ascx" TagName="usctrl_UserDetails" TagPrefix="uc1" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UTI Broker Grading System</title>
+
+
+
+    <meta name="rights" content="" />
+    <meta name="language" content="en-GB" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <script src="../JS/JQuery.js" type="text/javascript"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <%--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">--%>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <%--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>--%>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"
+        rel="Stylesheet" type="text/css" />
+    <%--<link href='<%=ResolveUrl("~/CSS/styles.css")%>' rel="stylesheet" type="text/css" />
+    <link href='<%=ResolveUrl("~/CSS/style_menu.css")%>' rel="stylesheet" type="text/css" />
+    <link href='<%=ResolveUrl("~/CSS/template.css")%>' rel="stylesheet" type="text/css" />
+    <script src='<%=ResolveUrl("~/JS/JScript.js")%>' type="text/javascript"></script>--%>
+
+    <link href="../CSS/template.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/style_menu.css" />
+    <script src='./JS/JScript.js' type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            history.go(1);
+            window.onload = window.history.forward(0);
+        });
+        function openNewWindows() {
+
+            window.open("http://www.cylsys.com");
+        }
+    </script>
+    <style type="text/css">
+        .style1
+        {
+            width: 616px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+    <style type="text/css">
+        body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        .main_menu
+        {
+            width: 100%;
+            color: White;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-right: 5px;
+            background-image: url('../Images/123.jpg');
+        }
+
+        .level_menu
+        {
+            width: auto;
+            background-color: wheat;
+            color: black;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 5px;
+        }
+
+        .selected
+        {
+            color: orange;
+        }
+
+        .orange
+        {
+            color: orange;
+        }
+
+        .white
+        {
+            color: White;
+        }
+    </style>
+    <script type="text/javascript">
+
+        var refresh = false;
+        $(window).keydown(function (event) {
+            if (event.keyCode == 116) { // User presses F5 to refresh
+                refresh = true;
+            }
+        });
+        $(document).keypress(
+        function (event) {
+            if (event.which == '13') {
+                event.preventDefault();
+            }
+        });
+        var clicked = false;
+        function CheckBrowser() {
+            if (clicked == false) {
+                //Browser closed   
+            } else {
+                //redirected
+                clicked = false;
+            }
+        }
+        //function bodyUnload() {
+        //    if (clicked == false)//browser is closed  
+        //    {
+        //        var request = GetRequest();
+        //        if (refresh == false) {
+        //            request.open("POST", "SessionKill.aspx", false);
+        //            request.send();
+        //        }
+        //    }
+        //}
+
+        function GetRequest() {
+            var xmlhttp;
+            if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            }
+            else {// code for IE6, IE5
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            return xmlhttp;
+        }
+
+    </script>
+
+</head>
+<body class="page_bg">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="onlyone" runat="server">
+            <Scripts>
+                <%--<asp:ScriptReference Path="~/JS/FixFocus.js" />--%>
+            </Scripts>
+            <Services>
+                <asp:ServiceReference Path="~/WebService/AutoComplete.asmx" />
+            </Services>
+        </asp:ScriptManager>
+        <div class="logo">
+            <table width="100%">
+                <tr>
+                    <td style="width: 10%" valign="top">
+                        <img src="./Images/uti_mutual_fund.jpg" alt="" title="UTI MF Logo" width="120px" />
+                    </td>
+                    <td align="center" valign="middle" style="width: 60%">
+                        <asp:Label ID="lblLogotext" runat="server" Text="Broker Grading system" Font-Bold="True"
+                            Font-Italic="False" Font-Size="Large" ForeColor="#000066"></asp:Label>
+                    </td>
+                    <td style="width: 50%" valign="middle" align="right">
+                        <uc1:usctrl_UserDetails ID="usctrl_UserDetails1" runat="server" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer1">
+            <div class="background">
+                <table width="100%">
+                    <tr>
+                        <td class="style1">
+                            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal"
+                                StaticHoverStyle-ForeColor="orange" StaticSelectedStyle-ForeColor="Orange" DynamicMenuStyle-BackColor="#FF9933"
+                                DynamicHoverStyle-ForeColor="Maroon" OnMenuItemDataBound="OnMenuItemDataBound" DynamicMenuItemStyle-HorizontalPadding="10px" StaticMenuItemStyle-HorizontalPadding="10px">
+                                <LevelMenuItemStyles>
+                                    <asp:MenuItemStyle CssClass="main_menu" />
+                                    <asp:MenuItemStyle CssClass="level_menu" />
+                                </LevelMenuItemStyles>
+                                <DynamicSelectedStyle CssClass="white" />
+                                <StaticSelectedStyle CssClass="orange" />
+                            </asp:Menu>
+                        </td>
+                        <td valign="middle" align="right" style="width: 10%;">
+                            <asp:Button ID="btnLogOff" runat="server" Font-Bold="True" Text="LogOff" OnClick="btnLogOff_Click" CausesValidation="false"></asp:Button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <%-- <asp:Panel ID="Panel1" BorderStyle="solid" BorderWidth="0" runat="server" Height="30px" Width="100%" CssClass="FooterTable">
+            <table width="100%">
+                <tr>
+                    <td align="right" style="width: 50%">UTI AMC LTD </td>
+                    <td align="right">
+                        <asp:HyperLink ID="Hpcylsys" runat="server" onclick="openNewWindows()" Style="cursor: pointer; text-decoration: underline;" ForeColor="DarkOrange">Powered By Cylsys</asp:HyperLink></td>
+                </tr>
+            </table>
+        </asp:Panel>
+        <Ajax:AlwaysVisibleControlExtender ScrollEffectDuration="111111" HorizontalSide="right" HorizontalOffset="0"
+            VerticalSide="Bottom" VerticalOffset="0" TargetControlID="Panel1" ID="AlwaysVisibleControlExtender1" runat="server" />--%>
+    </form>
+</body>
+</html>

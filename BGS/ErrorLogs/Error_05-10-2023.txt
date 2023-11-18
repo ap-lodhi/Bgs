@@ -1,0 +1,5 @@
+ú
+>>
+ Error Occurred:--10/5/2023 12:37:09 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.LoginMaster_Page.BtnSubmit_Click(Object sender, EventArgs e) in C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\LoginMaster.aspx.cs:line 32\

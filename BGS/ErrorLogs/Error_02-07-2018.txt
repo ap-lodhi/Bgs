@@ -1,0 +1,71 @@
+†
+>>
+ Error Occurred:--07/02/2018 11:28:54 AM>>
+Conversion failed when converting the varchar value 'ashok.agarwal@quantcapital.co.in' to data type int.\>>
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BGS.Datalayer.InsetSectorNameData(String SectorName, Int32 CreatedBy, String UpdatedBy) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\Data\DataLayer.cs:line 1108\¿
+>>
+ Error Occurred:--07/02/2018 11:45:36 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerMaster.ddlBrokerTypeMaster_TextChanged(Object sender, EventArgs e)\¿
+>>
+ Error Occurred:--07/02/2018 11:46:04 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerMaster.ddlBrokerTypeMaster_TextChanged(Object sender, EventArgs e)\¿
+>>
+ Error Occurred:--07/02/2018 11:47:06 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerMaster.ddlBrokerTypeMaster_TextChanged(Object sender, EventArgs e)\®
+>>
+ Error Occurred:--07/02/2018 12:38:29 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BGS.BrokerMaster.CancelBrokerGrading(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 643\™
+>>
+ Error Occurred:--07/02/2018 2:50:32 PM>>
+Cannot find table 2.\>>
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 94\™
+>>
+ Error Occurred:--07/02/2018 2:51:04 PM>>
+Cannot find table 2.\>>
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 94\™
+>>
+ Error Occurred:--07/02/2018 2:53:01 PM>>
+Cannot find table 2.\>>
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 94\
+>>
+ Error Occurred:--07/02/2018 3:20:45 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 219\
+>>
+ Error Occurred:--07/02/2018 3:23:02 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 219\
+>>
+ Error Occurred:--07/02/2018 3:25:14 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 219\
+>>
+ Error Occurred:--07/02/2018 7:18:26 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerRankReport.aspx.cs:line 219\

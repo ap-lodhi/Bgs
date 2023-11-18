@@ -1,0 +1,43 @@
+•
+>>
+ Error Occurred:--06/26/2018 2:59:08 PM>>
+The specified parameter name '@FirmName' is not valid. Parameter names must begin with a letter and can only contain letters, numbers, and underscores.
+Parameter name: name\>>
+   at System.Data.Entity.Core.Objects.ObjectParameter..ctor(String name, Object value)
+   at BGS.BGSEntities.BGS_InsertUpdateFirmMaster(String transType, String FirmName, String CreatedBy, Nullable`1 CreatedOn, String UpdatedBy, Nullable`1 UpdatedOn, Nullable`1 DelStatus, Nullable`1 MaxLimit, Nullable`1 EmailStatus, Nullable`1 DofaCode) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UTIBGSModel.Context.cs:line 234
+   at BGS.BrokerMaster.btnSaveFirmMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 812\”
+>>
+ Error Occurred:--06/26/2018 3:11:08 PM>>
+The specified parameter name '@FirmID' is not valid. Parameter names must begin with a letter and can only contain letters, numbers, and underscores.
+Parameter name: name\>>
+   at System.Data.Entity.Core.Objects.ObjectParameter..ctor(String name, Object value)
+   at BGS.BGSEntities.BGS_InsertUpdateFirmMaster(Nullable`1 FirmID, String FirmName, String CreatedBy, Nullable`1 CreatedOn, String UpdatedBy, Nullable`1 UpdatedOn, Nullable`1 DelStatus, Nullable`1 MaxLimit, Nullable`1 EmailStatus, Nullable`1 DofaCode) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UTIBGSModel.Context.cs:line 230
+   at BGS.BrokerMaster.btnSaveFirmMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 812\‚
+>>
+ Error Occurred:--06/26/2018 3:12:52 PM>>
+The specified parameter name '@FirmID' is not valid. Parameter names must begin with a letter and can only contain letters, numbers, and underscores.
+Parameter name: name\>>
+   at System.Data.Entity.Core.Objects.ObjectParameter..ctor(String name, Object value)
+   at BGS.BGSEntities.BGS_InsertUpdateFirmMaster(Nullable`1 FirmID, String FirmName, String CreatedBy, Nullable`1 CreatedOn, String UpdatedBy, Nullable`1 UpdatedOn, Nullable`1 DelStatus, Nullable`1 MaxLimit, Nullable`1 EmailStatus, Nullable`1 DofaCode)
+   at BGS.BrokerMaster.btnSaveFirmMaster_Click(Object sender, EventArgs e)\‚
+>>
+ Error Occurred:--06/26/2018 3:14:23 PM>>
+The specified parameter name '@FirmID' is not valid. Parameter names must begin with a letter and can only contain letters, numbers, and underscores.
+Parameter name: name\>>
+   at System.Data.Entity.Core.Objects.ObjectParameter..ctor(String name, Object value)
+   at BGS.BGSEntities.BGS_InsertUpdateFirmMaster(Nullable`1 FirmID, String FirmName, String CreatedBy, Nullable`1 CreatedOn, String UpdatedBy, Nullable`1 UpdatedOn, Nullable`1 DelStatus, Nullable`1 MaxLimit, Nullable`1 EmailStatus, Nullable`1 DofaCode)
+   at BGS.BrokerMaster.btnSaveFirmMaster_Click(Object sender, EventArgs e)\ƒ
+>>
+ Error Occurred:--06/26/2018 3:24:47 PM>>
+The specified parameter name '@FirmName' is not valid. Parameter names must begin with a letter and can only contain letters, numbers, and underscores.
+Parameter name: name\>>
+   at System.Data.Entity.Core.Objects.ObjectParameter..ctor(String name, Object value)
+   at BGS.BGSEntities.BGS_InsertUpdateFirmMaster(String FirmName, String CreatedBy, Nullable`1 CreatedOn, String UpdatedBy, Nullable`1 UpdatedOn, Nullable`1 DelStatus, Nullable`1 MaxLimit, Nullable`1 EmailStatus, Nullable`1 DofaCode) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UTIBGSModel.Context.cs:line 234
+   at BGS.BrokerMaster.btnSaveFirmMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 812\‚
+>>
+ Error Occurred:--06/26/2018 5:28:44 PM>>
+The specified parameter name '@FirmID' is not valid. Parameter names must begin with a letter and can only contain letters, numbers, and underscores.
+Parameter name: name\>>
+   at System.Data.Entity.Core.Objects.ObjectParameter..ctor(String name, Object value)
+   at BGS.BGSEntities.BGS_InsertUpdateFirmMaster(Nullable`1 FirmID, String FirmName, String CreatedBy, Nullable`1 CreatedOn, String UpdatedBy, Nullable`1 UpdatedOn, Nullable`1 DelStatus, Nullable`1 MaxLimit, Nullable`1 EmailStatus, Nullable`1 DofaCode)
+   at BGS.BrokerMaster.btnSaveFirmMaster_Click(Object sender, EventArgs e)\

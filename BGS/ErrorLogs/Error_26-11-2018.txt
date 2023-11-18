@@ -1,0 +1,106 @@
+ò
+>>
+ Error Occurred:--11/26/2018 11:51:17 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\ò
+>>
+ Error Occurred:--11/26/2018 11:52:06 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\ò
+>>
+ Error Occurred:--11/26/2018 11:54:35 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\æ
+>>
+ Error Occurred:--11/26/2018 12:07:55 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\æ
+>>
+ Error Occurred:--11/26/2018 12:08:11 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\æ
+>>
+ Error Occurred:--11/26/2018 12:09:11 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\æ
+>>
+ Error Occurred:--11/26/2018 12:29:01 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1152\æ
+>>
+ Error Occurred:--11/26/2018 12:30:28 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\æ
+>>
+ Error Occurred:--11/26/2018 12:34:12 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1155\å
+>>
+ Error Occurred:--11/26/2018 1:11:34 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1155\å
+>>
+ Error Occurred:--11/26/2018 1:11:40 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1155\å
+>>
+ Error Occurred:--11/26/2018 1:14:28 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1155\å
+>>
+ Error Occurred:--11/26/2018 2:59:16 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1154\å
+>>
+ Error Occurred:--11/26/2018 3:00:07 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1154\å
+>>
+ Error Occurred:--11/26/2018 3:02:11 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1154\

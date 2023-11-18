@@ -1,0 +1,184 @@
+‘
+>>
+ Error Occurred:--9/30/2022 12:42:09 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 759\­
+>>
+ Error Occurred:--9/30/2022 1:02:21 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [BMXP287CA0012.INDP287.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1028\­
+>>
+ Error Occurred:--9/30/2022 1:03:17 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [BMXP287CA0023.INDP287.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1028\§
+>>
+ Error Occurred:--9/30/2022 3:08:23 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0213.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:08:45 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0220.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:08:52 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0211.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:00 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0224.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:08 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0224.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:15 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0213.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:23 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0221.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:30 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0215.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:37 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0218.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:44 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0223.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:51 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0212.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:09:59 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0211.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:06 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0223.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:13 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0222.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:20 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0213.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:27 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0215.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:35 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0218.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:42 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0217.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:49 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0216.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\§
+>>
+ Error Occurred:--9/30/2022 3:10:56 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0219.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 893\

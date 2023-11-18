@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{089158E4-F9DC-42B8-92B9-A74568902EB1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BGS</RootNamespace>
+    <AssemblyName>BGS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\SRRMS 05-ct\SRRMS\SRRMS\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.76.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\ThirdParty\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Recaptcha, Version=1.0.5.0, Culture=neutral, PublicKeyToken=9afc4d65b28c38c2, processorArchitecture=MSIL">
+      <HintPath>..\packages\recaptcha.1.0.5.0\lib\.NetFramework 4.0\Recaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Activities" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdjustedWeightageReports.aspx" />
+    <Content Include="BrokerAdjustedScore.aspx" />
+    <Content Include="BrokerEmailListing.aspx" />
+    <Content Include="BrokerGradingReports.aspx" />
+    <Content Include="BrokerMaster.aspx" />
+    <Content Include="BrokerRanking.aspx" />
+    <Content Include="BrokerRankReport.aspx" />
+    <Content Include="CalculateRank.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="CSS\AutoExtender.css" />
+    <Content Include="CSS\sidebar_Junk.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\styles.css" />
+    <Content Include="CSS\styles1.css" />
+    <Content Include="CSS\StyleSheet.css" />
+    <Content Include="CSS\style_menu.css" />
+    <Content Include="CSS\template.css" />
+    <Content Include="DownloadFile\UserMannualAssosiate.html" />
+    <Content Include="DynamicData\FieldTemplates\DynamicDataField1.ascx" />
+    <Content Include="DynamicData\FieldTemplates\DynamicDataField1_Edit.ascx" />
+    <Content Include="EmailTemplate\BrokerSendEmail.html" />
+    <Content Include="EmailTemplate\InitiateGrading.html" />
+    <Content Include="EmailTemplate\ReOpen.html" />
+    <Content Include="EmailTemplate\UserCreation.html" />
+    <Content Include="ForgetPwd.aspx" />
+    <Content Include="GradingMaster.aspx" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\123.JPG" />
+    <Content Include="Images\1234.jpg" />
+    <Content Include="Images\aboutus.jpg" />
+    <Content Include="Images\about_1.jpg" />
+    <Content Include="Images\about_us.jpg" />
+    <Content Include="Images\Active.gif" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\ajax-loader_1.gif" />
+    <Content Include="Images\bg-black.gif" />
+    <Content Include="Images\bg-dark.png.jpeg" />
+    <Content Include="Images\bg-header - Copy.jpg" />
+    <Content Include="Images\bg-header.jpg" />
+    <Content Include="Images\bg-page.jpg" />
+    <Content Include="Images\bg-sidemenu.jpg" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\bg123.gif" />
+    <Content Include="Images\bg123.jpg" />
+    <Content Include="Images\bgImage.jpg" />
+    <Content Include="Images\bgImage1.jpg" />
+    <Content Include="Images\bgImage23.jpg" />
+    <Content Include="Images\bg_form_field.gif" />
+    <Content Include="Images\Big flower.gif" />
+    <Content Include="Images\bottom.jpg" />
+    <Content Include="Images\bottomOval.jpg" />
+    <Content Include="Images\bottomOval1.jpg" />
+    <Content Include="Images\Calendar_scheduleHS.png" />
+    <Content Include="Images\CenterOval.jpg" />
+    <Content Include="Images\CenterOval1.jpg" />
+    <Content Include="Images\close.gif" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\contact.jpeg" />
+    <Content Include="Images\credit-cards.png" />
+    <Content Include="Images\cube_3.jpg" />
+    <Content Include="Images\DDImage.bmp" />
+    <Content Include="Images\down.png" />
+    <Content Include="Images\downarrow.gif" />
+    <Content Include="Images\drop-arrow.gif" />
+    <Content Include="Images\DropDownl.bmp" />
+    <Content Include="Images\DropDownList.png" />
+    <Content Include="Images\DSCF9549.jpg" />
+    <Content Include="Images\DSCF9557.jpg" />
+    <Content Include="Images\DSCF9585.jpg" />
+    <Content Include="Images\DSCF9593.jpg" />
+    <Content Include="Images\DSCF9595.jpg" />
+    <Content Include="Images\fancy_close.png" />
+    <Content Include="Images\fileDown.png" />
+    <Content Include="Images\footer.png" />
+    <Content Include="Images\h2_bg_top.gif" />
+    <Content Include="Images\HeaderLogo.gif" />
+    <Content Include="Images\header_bg.gif" />
+    <Content Include="Images\heading_bg.jpg" />
+    <Content Include="Images\heading_bg1.jpg" />
+    <Content Include="Images\heading_bgbtn.bmp" />
+    <Content Include="Images\hero-icon-search.png" />
+    <Content Include="Images\hero-icon-search1.png" />
+    <Content Include="Images\icon-feed.png" />
+    <Content Include="Images\images %283%29.jpg" />
+    <Content Include="Images\images %285%29.jpg" />
+    <Content Include="Images\images %286%29.jpg" />
+    <Content Include="Images\imagesCAQUS7T1.jpg" />
+    <Content Include="Images\imagesCAYXZY70.jpg" />
+    <Content Include="Images\infoHead.gif" />
+    <Content Include="Images\ItsfmgLogo.jpg" />
+    <Content Include="Images\ItsfmgLogo123.bmp" />
+    <Content Include="Images\ItsfmgLogo1234.bmp" />
+    <Content Include="Images\Left - Copy.jpg" />
+    <Content Include="Images\Left.jpg" />
+    <Content Include="Images\Left12.jpg" />
+    <Content Include="Images\Left3.jpg" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\loader_1.gif" />
+    <Content Include="Images\loginbutton.gif" />
+    <Content Include="Images\login\icon_back_login.gif" />
+    <Content Include="Images\login\inp_login.gif" />
+    <Content Include="Images\login\loginbox_bg.png" />
+    <Content Include="Images\login\login_bg.jpg" />
+    <Content Include="Images\login\submit_login.gif" />
+    <Content Include="Images\logo-dogcollars - Copy.png" />
+    <Content Include="Images\logo-dogcollars.png" />
+    <Content Include="Images\logo.gif" />
+    <Content Include="Images\logoiD.jpg" />
+    <Content Include="Images\logolatest.gif" />
+    <Content Include="Images\l_menu.gif" />
+    <Content Include="Images\l_menu1.gif" />
+    <Content Include="Images\MainLogoImg - Copy.jpg" />
+    <Content Include="Images\MainLogoImg.jpg" />
+    <Content Include="Images\MainLogoImg1.jpg" />
+    <Content Include="Images\MainLogoImgWhite.jpg" />
+    <Content Include="Images\m_h3.png" />
+    <Content Include="Images\orangeuti.JPG" />
+    <Content Include="Images\Pik Big.gif" />
+    <Content Include="Images\port_1.jpg" />
+    <Content Include="Images\port_2.jpg" />
+    <Content Include="Images\port_3.jpg" />
+    <Content Include="Images\port_4.jpg" />
+    <Content Include="Images\port_5.jpg" />
+    <Content Include="Images\port_6.jpg" />
+    <Content Include="Images\right-arrow.gif" />
+    <Content Include="Images\Right.jpg" />
+    <Content Include="Images\rightOval.jpg" />
+    <Content Include="Images\rightOval1.jpg" />
+    <Content Include="Images\rss.jpg" />
+    <Content Include="Images\r_menu.gif" />
+    <Content Include="Images\r_menu1.gif" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\search_bg.gif" />
+    <Content Include="Images\send.gif" />
+    <Content Include="Images\simple_img_1.jpg" />
+    <Content Include="Images\simple_img_2.jpg" />
+    <Content Include="Images\simple_img_3.jpg" />
+    <Content Include="Images\simple_img_4.jpg" />
+    <Content Include="Images\slider_bg.gif" />
+    <Content Include="Images\slider_bg_bottom.gif" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Images\top_img_1.jpg" />
+    <Content Include="Images\top_img_2.jpg" />
+    <Content Include="Images\top_img_3.jpg" />
+    <Content Include="Images\Untitled.jpg" />
+    <Content Include="Images\up-arrow.gif" />
+    <Content Include="Images\up.png" />
+    <Content Include="Images\uparrow.gif" />
+    <Content Include="Images\UserMannual\1.png" />
+    <Content Include="Images\UserMannual\2.png" />
+    <Content Include="Images\UserMannual\3.png" />
+    <Content Include="Images\UserMannual\4.png" />
+    <Content Include="Images\UserMannual\5.png" />
+    <Content Include="Images\UTI-logo.jpg" />
+    <Content Include="Images\UTIMF.png" />
+    <Content Include="Images\uti_logo.jpg" />
+    <Content Include="Images\uti_mutual_fund.jpg" />
+    <Content Include="JS\JQuery.js" />
+    <Content Include="JS\JScript.js" />
+    <Content Include="JS\JScript_Old.js" />
+    <Content Include="LoginMaster.aspx" />
+    <Content Include="MyCaptcha.aspx" />
+    <Content Include="QuarterMaster.aspx" />
+    <Content Include="ScreenAllocation.aspx" />
+    <Content Include="SectorMaster.aspx" />
+    <Content Include="UserControls\LoginBox.ascx" />
+    <Content Include="UserControls\Login.ascx" />
+    <Content Include="UserControls\ScreenAllocation.ascx" />
+    <Content Include="UserControls\usctrl_UserDetails.ascx" />
+    <Content Include="UserControls\usctrl_UserHeaderActions.ascx" />
+    <Content Include="UserMaster.aspx" />
+    <Content Include="VoterScreen.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="WebService\AutoComplete.asmx" />
+    <Content Include="weightMaster.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdjustedWeightageReports.aspx.cs">
+      <DependentUpon>AdjustedWeightageReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdjustedWeightageReports.aspx.designer.cs">
+      <DependentUpon>AdjustedWeightageReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BGD_GetBrokerNameMaster_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_BindBrokerName_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_BindQuarter_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_BindSectorMaster_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_BindVoter_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_CalculateRank_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetAsssignScreens_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerDetailsByBrokerNameBrokerAnalyst_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerMaster_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerNameForBrokerMster_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerName_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerRanking_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerTypeMasterData_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetBrokerUploadData_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetCuurentQuarterVoterStatus_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetDOD_DOFAReason_Result1.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetEmailListing_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetGradingMaster_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetLastQuarterNameById_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetPerBrokerRankStatus_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetQuarterMaster_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetQuarterNameById_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetQuarterNameDuteDate_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetQuarterName_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetRABrokerName_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetRoleDeptDetails_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetSector_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetUserDetailsForVoter_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetUserDetails_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetUserTypes_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetUser_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetVoterByCurrentQuarter_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetVoterByLastQuarter_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetVoterName_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BGS_GetVoterSector_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerAdjustedScore.aspx.cs">
+      <DependentUpon>BrokerAdjustedScore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerAdjustedScore.aspx.designer.cs">
+      <DependentUpon>BrokerAdjustedScore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerAnalyst.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerConfig.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerEmailListing.aspx.cs">
+      <DependentUpon>BrokerEmailListing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerEmailListing.aspx.designer.cs">
+      <DependentUpon>BrokerEmailListing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerGradingReports.aspx.cs">
+      <DependentUpon>BrokerGradingReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerGradingReports.aspx.designer.cs">
+      <DependentUpon>BrokerGradingReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerMaster.aspx.cs">
+      <DependentUpon>BrokerMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerMaster.aspx.designer.cs">
+      <DependentUpon>BrokerMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerNameMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerRanking.aspx.cs">
+      <DependentUpon>BrokerRanking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerRanking.aspx.designer.cs">
+      <DependentUpon>BrokerRanking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerRankReport.aspx.cs">
+      <DependentUpon>BrokerRankReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BrokerRankReport.aspx.designer.cs">
+      <DependentUpon>BrokerRankReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BrokerTypeMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CalculateRank.aspx.cs">
+      <DependentUpon>CalculateRank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalculateRank.aspx.designer.cs">
+      <DependentUpon>CalculateRank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Check_UserAuthentication_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\CommonFunctions.cs" />
+    <Compile Include="Data\DataLayer.cs" />
+    <Compile Include="Data\Error.cs" />
+    <Compile Include="DepartmentMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DOD_DOFAReason.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicData\FieldTemplates\DynamicDataField1.ascx.cs">
+      <DependentUpon>DynamicDataField1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DynamicData\FieldTemplates\DynamicDataField1.ascx.designer.cs">
+      <DependentUpon>DynamicDataField1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DynamicData\FieldTemplates\DynamicDataField1_Edit.ascx.cs">
+      <DependentUpon>DynamicDataField1_Edit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DynamicData\FieldTemplates\DynamicDataField1_Edit.ascx.designer.cs">
+      <DependentUpon>DynamicDataField1_Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Enum\EnumStatus.cs" />
+    <Compile Include="Enum\EnumTotalVotes.cs" />
+    <Compile Include="Enum\EnumUserType.cs" />
+    <Compile Include="Enum\RolType.cs" />
+    <Compile Include="ErrorLog.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ForgetPwd.aspx.cs">
+      <DependentUpon>ForgetPwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgetPwd.aspx.designer.cs">
+      <DependentUpon>ForgetPwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetMenuItem_Employee_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GradingMaster.aspx.cs">
+      <DependentUpon>GradingMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GradingMaster.aspx.designer.cs">
+      <DependentUpon>GradingMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GradingMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GradingMaster_Archive.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LoginMaster.aspx.cs">
+      <DependentUpon>LoginMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginMaster.aspx.designer.cs">
+      <DependentUpon>LoginMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\LoginMaster.master.cs">
+      <DependentUpon>LoginMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\LoginMaster.master.designer.cs">
+      <DependentUpon>LoginMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuleMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MyCaptcha.aspx.cs">
+      <DependentUpon>MyCaptcha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuarterMaster.aspx.cs">
+      <DependentUpon>QuarterMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuarterMaster.aspx.designer.cs">
+      <DependentUpon>QuarterMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuarterMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RankMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoleMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenAllocation.aspx.cs">
+      <DependentUpon>ScreenAllocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ScreenAllocation.aspx.designer.cs">
+      <DependentUpon>ScreenAllocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenAssignDetail.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SectorMaster.aspx.cs">
+      <DependentUpon>SectorMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SectorMaster.aspx.designer.cs">
+      <DependentUpon>SectorMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SectorMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SP_CheckUserEmployeeId_Result.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StatusMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LoginBox.ascx.cs">
+      <DependentUpon>LoginBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\LoginBox.ascx.designer.cs">
+      <DependentUpon>LoginBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ScreenAllocation.ascx.cs">
+      <DependentUpon>ScreenAllocation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScreenAllocation.ascx.designer.cs">
+      <DependentUpon>ScreenAllocation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\usctrl_UserDetails.ascx.cs">
+      <DependentUpon>usctrl_UserDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\usctrl_UserDetails.ascx.designer.cs">
+      <DependentUpon>usctrl_UserDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\usctrl_UserHeaderActions.ascx.cs">
+      <DependentUpon>usctrl_UserHeaderActions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\usctrl_UserHeaderActions.ascx.designer.cs">
+      <DependentUpon>usctrl_UserHeaderActions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaster.aspx.cs">
+      <DependentUpon>UserMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMaster.aspx.designer.cs">
+      <DependentUpon>UserMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserType.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UTIBGSModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UTIBGSModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UTIBGSModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UTIBGSModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UTIBGSModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="UTIBGSModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UTIBGSModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="VoteMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VoterScreen.aspx.cs">
+      <DependentUpon>VoterScreen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VoterScreen.aspx.designer.cs">
+      <DependentUpon>VoterScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService\AutoComplete.asmx.cs">
+      <DependentUpon>AutoComplete.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="weightMaster.aspx.cs">
+      <DependentUpon>weightMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="weightMaster.aspx.designer.cs">
+      <DependentUpon>weightMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeightMaster.cs">
+      <DependentUpon>UTIBGSModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AttachPDFWithMail\Howtoreadvotes.pdf" />
+    <None Include="CSS\vssver2.scc" />
+    <Content Include="DownloadFile\User_Manual_for_Associates.docx" />
+    <Content Include="DownloadFile\User_Manual_for_Associates.doc" />
+    <Content Include="DownloadFile\BrokerUploadFormat.xls" />
+    <None Include="Images\login\Thumbs.db" />
+    <None Include="Images\login\vssver2.scc" />
+    <None Include="Images\Thumbs.db" />
+    <None Include="Images\vssver2.scc" />
+    <None Include="JS\vssver2.scc" />
+    <Content Include="MasterPages\LoginMaster.master" />
+    <Content Include="MasterPages\MasterPage.master" />
+    <None Include="MasterPages\vssver2.scc" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\BGS.pubxml" />
+    <None Include="Properties\PublishProfiles\Publish.pubxml" />
+    <None Include="UserControls\vssver2.scc" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <EntityDeploy Include="UTIBGSModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>UTIBGSModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="UTIBGSModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UTIBGSModel.edmx</DependentUpon>
+      <LastGenOutput>UTIBGSModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="UTIBGSModel.edmx.diagram">
+      <DependentUpon>UTIBGSModel.edmx</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="UTIBGSModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UTIBGSModel.edmx</DependentUpon>
+      <LastGenOutput>UTIBGSModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ErrorLogs\" />
+    <Folder Include="UploadFile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Activity1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5580</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

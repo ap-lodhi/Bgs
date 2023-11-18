@@ -1,0 +1,228 @@
+–
+>>
+ Error Occurred:--12/27/2018 10:17:32 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 562\–
+>>
+ Error Occurred:--12/27/2018 10:18:05 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 562\–
+>>
+ Error Occurred:--12/27/2018 10:18:19 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:19:20 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:19:37 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:19:42 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:19:53 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:19:57 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:20:04 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:20:14 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:20:35 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 10:21:00 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 11:54:21 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 562\–
+>>
+ Error Occurred:--12/27/2018 11:54:31 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 11:54:37 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 11:54:46 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\–
+>>
+ Error Occurred:--12/27/2018 11:54:54 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\µ
+>>
+ Error Occurred:--12/27/2018 12:21:35 PM>>
+Mailbox unavailable. The server response was: <shrawan.goyal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\²
+>>
+ Error Occurred:--12/27/2018 12:29:11 PM>>
+Mailbox unavailable. The server response was: <ajay.tyagi@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\²
+>>
+ Error Occurred:--12/27/2018 12:32:55 PM>>
+Mailbox unavailable. The server response was: <ajay.tyagi@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\–
+>>
+ Error Occurred:--12/27/2018 12:34:43 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\•
+>>
+ Error Occurred:--12/27/2018 1:10:38 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\•
+>>
+ Error Occurred:--12/27/2018 1:11:15 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\•
+>>
+ Error Occurred:--12/27/2018 2:40:03 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\¶
+>>
+ Error Occurred:--12/27/2018 2:53:46 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\¶
+>>
+ Error Occurred:--12/27/2018 2:59:49 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\µ
+>>
+ Error Occurred:--12/27/2018 3:03:11 PM>>
+Mailbox unavailable. The server response was: <swati.kulkarni@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\è
+>>
+ Error Occurred:--12/27/2018 4:39:12 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1152\è
+>>
+ Error Occurred:--12/27/2018 4:50:43 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\è
+>>
+ Error Occurred:--12/27/2018 4:51:23 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\è
+>>
+ Error Occurred:--12/27/2018 4:52:58 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.Enabledissable() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 1153\¶
+>>
+ Error Occurred:--12/27/2018 5:09:41 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\¶
+>>
+ Error Occurred:--12/27/2018 5:15:48 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\³
+>>
+ Error Occurred:--12/27/2018 5:31:21 PM>>
+Mailbox unavailable. The server response was: <rajeev.gupta@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\¹
+>>
+ Error Occurred:--12/27/2018 5:52:54 PM>>
+Mailbox unavailable. The server response was: <kaushik.chatterjee@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 798\

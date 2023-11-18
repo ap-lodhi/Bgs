@@ -1,0 +1,13 @@
+²
+>>
+ Error Occurred:--2/6/2019 11:55:21 AM>>
+Mailbox unavailable. The server response was: <parag.chavan@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 833\¯
+>>
+ Error Occurred:--2/6/2019 11:57:26 AM>>
+Mailbox unavailable. The server response was: <preethirs@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 833\

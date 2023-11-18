@@ -1,0 +1,334 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="true" CodeBehind="VoterScreen.aspx.cs" Inherits="BGS.VoterScreen" %>
+
+<%@ Import Namespace="BGS" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <style type="text/css">
+        .completionList
+        {
+            border: solid 1px Gray;
+            margin: 0px;
+            padding: 3px;
+            height: 120px;
+            overflow: auto;
+            background-color: #FFFFFF;
+            position: fixed;
+        }
+
+        .listItem
+        {
+            color: #191919;
+        }
+
+        .itemHighlighted
+        {
+            background-color: #ADD6FF;
+        }
+
+        body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        .modalBackground
+        {
+            background-color: Black;
+            filter: alpha(opacity=40);
+            opacity: 0.4;
+        }
+
+        .modalPopup
+        {
+            background-color: #FFFFFF;
+            width: 400px;
+            border: 3px solid #425290;
+            height: 400px;
+        }
+
+            .modalPopup .header
+            {
+                background-color: #425290;
+                height: 30px;
+                color: White;
+                line-height: 30px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            .modalPopup .body
+            {
+                min-height: 50px;
+                line-height: 30px;
+                text-align: left;
+                padding: 5px;
+            }
+
+            .modalPopup .footer
+            {
+                padding: 1px;
+            }
+
+            .modalPopup .button
+            {
+                height: 23px;
+                color: White;
+                line-height: 23px;
+                text-align: right;
+                font-weight: bold;
+                cursor: pointer;
+                background-color: #9F9F9F;
+                border: 1px solid;
+            }
+    </style>
+    <script type="text/javascript">
+        $(document).keypress(
+    function (event) {
+        if (event.which == '13') {
+            event.preventDefault();
+        }
+
+
+    });
+    </script>
+    <div>
+        <div class="form-group">
+            <div>
+                <asp:Panel ID="PAdd" runat="server" BorderColor="Silver" HorizontalAlign="Center">
+                    <div class="headertxt pagePannelHeader">
+                        VOTER SCREEN
+                    </div>
+                </asp:Panel>
+            </div>
+        </div>
+        <div class="form-group">
+            <asp:UpdatePanel ID="updatePanel" runat="server">
+                <ContentTemplate>
+                    <asp:UpdateProgress ID="UpdateProgress1" runat="server" DisplayAfter="0" AssociatedUpdatePanelID="updatePanel">
+                        <ProgressTemplate>
+                            <div class="loader">
+                                <div class="center">
+                                    <img alt="" src="Images/loader.gif" />
+                                </div>
+                            </div>
+                        </ProgressTemplate>
+                    </asp:UpdateProgress>
+                    <div style="float: left" class="pagePannelHeader">
+                        <div style="float: left; padding-top: 7px;">
+                            <table style="padding: 20px;" runat="server" id="tblDetails" width="100% ">
+                                <tr>
+                                    <td>User name:
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lblVoterName" runat="server">
+                                        </asp:Label>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </td>
+                                  <%--  <td>Quarter name: 
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lblQuarter" runat="server">
+                                        </asp:Label>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </td>--%>
+                                    <td>Start Date: 
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lblStartDate" runat="server">
+                                        </asp:Label>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              </td>
+                                    <td>End Date: 
+                                    </td>
+                                    <td>
+                                        <asp:Label ID="lblEndDate" runat="server">
+                                        </asp:Label>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </td>
+                                    <td>Due date:</td>
+                                    <td>
+                                        <asp:Label ID="lblDueDate" runat="server">
+                                        </asp:Label>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </td>
+                                    <td>
+                                        <asp:Button ID="btnView" runat="server" CssClass="submitbutton" Width="180" Text="Broker List Voted by RA" ToolTip="Please refer this list of brokers for voting, you can select maximum 3 brokers more outside this list." />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div style="float: right; padding-right: 50px; padding-top: 7px;">
+                        <table id="tblVoter" runat="server">
+                            <tr>
+                                <td>
+                                    <asp:Label ID="lblvoterNames" runat="server" Text="Voter Name"></asp:Label>&nbsp;&nbsp;
+                                </td>
+                                <td align="right">
+                                    <asp:DropDownList ID="ddlVoterName" Visible='<%#(this.UserTypeName==EnumUserType.Admin?true:false) %>' runat="server" CssClass="dropdowncss" AutoPostBack="true"
+                                        OnSelectedIndexChanged="ddlVoterName_SelectedIndexChanged">
+                                    </asp:DropDownList>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br />
+                    <br />
+                    <div style="width: 100%" class="pagePannelHeader">
+                        <asp:GridView ID="gvVoterMaster" CssClass="mGrid" runat="server" OnSorting="gvVoterMaster_Sorting" AllowSorting="true" ShowHeader="true" ShowHeaderWhenEmpty="true" AutoGenerateColumns="false" EmptyDataText="No record found." Width="100%" Enabled='<%# this.IsVoterSubmit.ToString().ToUpper() == "True".ToUpper() && this.UserTypeName.ToUpper() == EnumUserType.voter.ToUpper()  ? false : true %>'>
+                            <Columns>
+                                <asp:TemplateField HeaderText="Broker/Firm Name" HeaderStyle-CssClass="gvActionHeadertxtAlign" SortExpression="BrokerName" HeaderStyle-Width="30%">
+                                    <ItemTemplate>
+                                        <asp:TextBox ID="txtGgridBrokerName" runat="server" Text='<%# Eval("BrokerName").ToString() %>' CssClass="gvActionHeadertxtAlign" Width="97%" Style="margin: 0px !important;" AutoPostBack="true" OnTextChanged="txtGgridBrokerName_TextChanged"></asp:TextBox>
+                                        <cc1:AutoCompleteExtender ServiceMethod="PopulateBrokerName" ServicePath="~/WebService/AutoComplete.asmx"
+                                            MinimumPrefixLength="1" CompletionInterval="100" CompletionSetCount="2"
+                                            TargetControlID="txtGgridBrokerName"
+                                            ID="AutoCompleteExtender1" runat="server"
+                                            CompletionListCssClass="completionList"
+                                            CompletionListItemCssClass="listItem"
+                                            CompletionListHighlightedItemCssClass="itemHighlighted">
+                                        </cc1:AutoCompleteExtender>
+                                        <asp:HiddenField ID="hfGRBrokerNameId" runat="server" Value='<%#Eval("BrokerNameID") %>' />
+                                        <asp:RequiredFieldValidator ID="rfvBroker" runat="server" ControlToValidate="txtGgridBrokerName" ErrorMessage="*" InitialValue="" ValidationGroup="vgvote" CssClass="ErrorMessage"></asp:RequiredFieldValidator>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+
+                                <asp:TemplateField HeaderText="Broker Analyst" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="gvActionHeadertxtAlign" HeaderStyle-Width="20%" SortExpression="AnalystName">
+                                    <ItemTemplate>
+                                        <span id="Span2" runat="server" visible='<%#(this.RoleTypeName.ToUpper()==EnumRolType.RA?true:false) %>'>
+                                            <asp:DropDownList ID="ddlGridBrokerAnalyst" AutoPostBack="true" runat="server" Style="margin: 0px !important;" Visible='<%# (this.RoleTypeName == EnumRolType.RA?true:false) %>' OnSelectedIndexChanged="ddlGridBrokerAnalyst_SelectedIndexChanged" Width="95%">
+                                            </asp:DropDownList>
+                                            <asp:RequiredFieldValidator ID="rfvAnalyst" runat="server" ControlToValidate="ddlGridBrokerAnalyst" InitialValue="" ErrorMessage="*" ValidationGroup="vgvote" CssClass="ErrorMessage"></asp:RequiredFieldValidator>
+                                            <asp:HiddenField ID="hfGridBrokerAnalyst" runat="server" Value='<%# Eval("AnalystName") %>' />
+                                        </span>
+                                        <span id="Span1" runat="server" visible='<%#(this.RoleTypeName.ToUpper()==EnumRolType.FM && (this.DepartmentName.ToUpper()!=EnumDeptType.DOD && this.DepartmentName.ToUpper()!=EnumDeptType.DOFA)?true:false) %>'>
+                                            <asp:TextBox ID="txtDescription" Style="margin: 0px !important;" runat="server" Text='<%# Eval("FMComments").ToString() %>' CssClass="gvActionHeadertxtAlign" Width="97%"></asp:TextBox>
+                                        </span>
+                                        <span id="Span3" runat="server" visible='<%#((this.DepartmentName.ToUpper()==EnumDeptType.DOD || this.DepartmentName.ToUpper()==EnumDeptType.DOFA)&& this.RoleTypeName.ToUpper()==EnumRolType.FM?true:false) %>'>
+                                            <asp:TextBox ID="txtDescDOD_DOFA" OnTextChanged="txtDescDOD_DOFA_OnTextChanged" AutoPostBack="true" Style="margin: 0px !important;" runat="server" Text='<%# Eval("ReasonName").ToString() %>' CssClass="gvActionHeadertxtAlign" Width="97%"></asp:TextBox>
+                                            <%--<asp:DropDownList ID="ddlDescDOD_DOFA" AutoPostBack="true" runat="server" Style="margin: 0px !important;" OnTextChanged="ddlDescDOD_DOFA_TextChanged" Width="95%" visible='<%#((this.DepartmentName.ToUpper()==EnumDeptType.DOD || this.DepartmentName.ToUpper()==EnumDeptType.DOFA)&& this.RoleTypeName.ToUpper()==EnumRolType.FM?true:false) %>'>
+                                            </asp:DropDownList>--%>
+                                            <cc1:AutoCompleteExtender ServiceMethod="PopulateReasons" ServicePath="~/WebService/AutoComplete.asmx"
+                                            MinimumPrefixLength="1" CompletionInterval="100" CompletionSetCount="2"
+                                            TargetControlID="txtDescDOD_DOFA"
+                                            ID="aceDescDOD_DOFA" runat="server"
+                                            CompletionListCssClass="completionList"
+                                            CompletionListItemCssClass="listItem"
+                                            CompletionListHighlightedItemCssClass="itemHighlighted">
+                                        </cc1:AutoCompleteExtender>
+                                            <%--<asp:HiddenField ID="hdnReasonID" runat="server" Value='<%#Eval("ReasonID") %>' />--%>
+                                        </span>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+
+                                <asp:TemplateField HeaderText="Sector Name" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="gvActionHeadertxtAlign" HeaderStyle-Width="20%" SortExpression="SectorName">
+                                    <ItemTemplate>
+                                        <asp:HiddenField ID="hfSector" runat="server" Value='<%#Eval("SectorId") %>' />
+                                        <asp:HiddenField ID="hfVoteId" runat="server" Value='<%#Eval("VoteId") %>' />
+                                        <asp:DropDownList ID="ddlGridSector" Style="margin: 0px !important;" runat="server" Visible='<%# (this.RoleTypeName == EnumRolType.RA?true:false) %>' AutoPostBack="true" OnSelectedIndexChanged="ddlGridSector_SelectedIndexChanged" Width="95%">
+                                        </asp:DropDownList>
+                                        <%--<asp:TextBox ID="txtGridSectorName" runat="server" BackColor="White" Text='<%# Eval("SectorName") %>' Visible='<%# (this.RoleTypeName == EnumRolType.RA?true:false) %>' CssClass="gvActionHeadertxtAlign" Width="95%"></asp:TextBox>--%>
+                                        <asp:RequiredFieldValidator ID="rfVSector" runat="server" ControlToValidate="ddlGridSector" InitialValue="" Visible='<%# (this.RoleTypeName == EnumRolType.RA?true:false) %>' ErrorMessage="*" ValidationGroup="vgvote" CssClass="ErrorMessage"></asp:RequiredFieldValidator>
+
+                                    </ItemTemplate>
+
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Vote" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="gvActionHeadertxtAlign" HeaderStyle-Width="12%" SortExpression="Vote">
+                                    <ItemTemplate>
+                                        <asp:TextBox ID="txtGridVote" runat="server" Style="margin: 0px !important;" Text='<%# !string.IsNullOrEmpty(Eval("Vote").ToString()) ? Convert.ToDecimal(Eval("Vote")).ToString("f") : "0.00" %>' MaxLength="5" BackColor="White" CssClass="gvActionHeadertxtAlign" Width="90%" AutoPostBack="true" OnTextChanged="txtGridVote_TextChanged"></asp:TextBox>
+                                        <cc1:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" ValidChars="." runat="server" FilterType="Numbers,Custom"
+                                            TargetControlID="txtGridVote" />
+                                        <asp:RequiredFieldValidator ID="rfVVote" runat="server" ControlToValidate="txtGridVote" ErrorMessage="*" InitialValue="" ValidationGroup="vgvote" CssClass="ErrorMessage"></asp:RequiredFieldValidator>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Max Limit" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="gvActionHeadertxtAlign" HeaderStyle-Width="8%" SortExpression="MaxLimit">
+                                    <ItemTemplate>
+                                        <asp:TextBox ID="txtGridMaxLimit" runat="server" Style="margin: 0px !important;" Text='<%# Eval("MaxLimit") %>' Enabled="false" BackColor="White" CssClass="gvActionHeadertxtAlign" BorderWidth="0" Width="95%"></asp:TextBox>
+                                        <%--<asp:RequiredFieldValidator ID="rfVMaxlimit" runat="server" ControlToValidate="txtGridMaxLimit" InitialValue="0" ErrorMessage="*" ValidationGroup="vgvote" CssClass="ErrorMessage"></asp:RequiredFieldValidator>--%>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField HeaderText="Action" HeaderStyle-CssClass="gvActionHeadertxtAlign" HeaderStyle-Width="10%">
+                                    <ItemTemplate>
+                                        <asp:HiddenField ID="hfVoterID" runat="server" Value='<%#Eval("VoteID") %>' />
+                                        <asp:Button ID="btnadd" runat="server" Text="+" Style="margin: 0px !important;" OnClick="AddNewRecord" CommandArgument="<%#((GridViewRow)Container).RowIndex %>"  CommandName='<%#Eval("VoteId") %>' CssClass="btn-default" Enabled='<%# this.UserTypeName.ToUpper() != EnumUserType.Admin.ToUpper() ? ((this.StatusId != 4 && this.UserTypeName.ToUpper() == EnumUserType.voter.ToUpper()) ? true : false) : true %>' Width="30px" />
+                                        <asp:Button ID="btnDelete" runat="server" Text="-" Style="margin: 0px !important;" CommandArgument='<%#((GridViewRow)Container).RowIndex%>' CommandName='<%#Eval("VoteId") %>' OnClientClick='return confirm("Do you want to delete this Vote ?");' Enabled='<%# this.UserTypeName.ToUpper() != EnumUserType.Admin.ToUpper() ? ((this.StatusId != 4 && this.UserTypeName.ToUpper() == EnumUserType.voter.ToUpper()) ? true : false) : true %>' OnClick="DeleteVote" CssClass="btn-default" Width="30px" />
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                            </Columns>
+                            <SortedAscendingHeaderStyle ForeColor="White" />
+                            <SortedDescendingHeaderStyle ForeColor="White" />
+                        </asp:GridView>
+                    </div>
+
+                    <br />
+                    <table id="tblbutton" runat="server" style="width: 100%;" class="pagePannelHeader">
+                        <tr>
+                            <td style="width: 20%; float: right;">
+                                <asp:Button ID="btnSaveForLater" Text="Save for later" Width="100px" CssClass="submitbutton" runat="server" ValidationGroup="vgvote"  OnClick="SaveForLater" /></td>     <%--OnClientClick="return performCheck('NO');"--%>
+                            <td style="width: 20%; float: right;">
+                                <asp:Button ID="btnSubmit" Text="Submit" Width="100px" ValidationGroup="vgvote" CssClass="submitbutton" runat="server" OnClick="Submit"  /></td>    <%--OnClientClick="return performCheck('YES');"--%>
+                            <td style="width: 20%;">
+                                <asp:Button ID="btnCancel" Text="Cancel" Width="100px" CssClass="submitbutton" runat="server" OnClick="Cancel" /></td>
+                            <td style="width: 32%;">Remaining =
+                                <asp:Label ID="lblTotalVote" runat="server"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <br />
+                    <cc1:ModalPopupExtender ID="ModalPopupExtender1" runat="server" TargetControlID="btnView" PopupControlID="pnlPopup"
+                        BackgroundCssClass="modalBackground" CancelControlID="btnClose">
+                    </cc1:ModalPopupExtender>
+
+                </ContentTemplate>
+                 <Triggers>
+                    <asp:PostBackTrigger ControlID="ddlVoterName" />
+                 </Triggers>
+            </asp:UpdatePanel>
+        </div>
+        <asp:Panel ID="pnlPopup" runat="server" CssClass="modalPopup" Style="display: none" ScrollBars="Vertical">
+            <%-- <div class="header">
+                Details
+            </div>--%>
+            <div class="body">
+                <asp:GridView ID="gvBroker" CssClass="mGrid" runat="server" ShowHeader="true" ShowHeaderWhenEmpty="true" AutoGenerateColumns="false" EmptyDataText="No record found." Width="100%">
+                    <Columns>
+                        <asp:BoundField HeaderText=" Broker Name" DataField="BrokerName" />
+                    </Columns>
+                </asp:GridView>
+            </div>
+            <div class="footer" align="right">
+                <asp:Button ID="btnClose" runat="server" Text="Close" CssClass="submitbutton" />
+            </div>
+        </asp:Panel>
+    </div>
+    <script type="text/javascript">
+        function checkValidationGroup(valGrp) {
+            var rtnVal = true;
+            for (i = 0; i < Page_Validators.length; i++) {
+                if (Page_Validators[i].validationGroup == valGrp) {
+                    ValidatorValidate(Page_Validators[i]);
+                    if (!Page_Validators[i].isvalid) { //at least one is not valid.
+                        rtnVal = false;
+                        break; //exit for-loop, we are done.
+                    }
+                }
+            }
+            return rtnVal;
+        }
+        function performCheck(s) {
+            alert(s);
+            debugger;
+            if (!checkValidationGroup("vgvote")) {
+                alert('Please fill required filled.');
+                return false;
+            }
+            else if (s == 'YES') {
+                return confirm('Do you want to submit? because after submit you can not change.');
+            }
+        }
+    </script>
+</asp:Content>

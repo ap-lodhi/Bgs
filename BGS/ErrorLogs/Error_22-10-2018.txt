@@ -1,0 +1,182 @@
+þ
+>>
+ Error Occurred:--10/22/2018 5:07:17 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\þ
+>>
+ Error Occurred:--10/22/2018 5:36:50 PM>>
+The parameter 'addresses' cannot be an empty string.
+Parameter name: addresses\>>
+   at System.Net.Mail.MailAddressCollection.Add(String addresses)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 776
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 559\û
+>>
+ Error Occurred:--10/22/2018 5:43:29 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 457\ú
+>>
+ Error Occurred:--10/22/2018 5:43:31 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 446\

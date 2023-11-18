@@ -1,0 +1,25 @@
+ò
+>>
+ Error Occurred:--12/19/2017 10:12:56 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/19/2017 10:17:10 AM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\ò
+>>
+ Error Occurred:--12/19/2017 12:10:05 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\

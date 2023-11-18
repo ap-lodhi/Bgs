@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    <!--<siteMapNode url="~/BrokerMaster.aspx" title="Broker Master "  description="" />
+    <siteMapNode url="~/GradingMaster.aspx" title="Grading Master "  description="" />-->
+    <!--<siteMapNode url="~/CalculateRank.aspx" title="Calculate Rank "  description="" />-->
+    <!--<siteMapNode url="~/BrokerGrading.aspx" title="Broker Grading"  description="" />-->
+    <!--<siteMapNode url="~/VoterMaster.aspx" title="Voter Master"  description="" />-->
+    <!--<siteMapNode url="~/QuarterMaster.aspx" title="Quarter Master"  description="" />-->
+    <!--<siteMapNode url="~/UserMaster.aspx" title="User Master"  description=""/>-->
+    <!--<siteMapNode url="~/LoginPage.aspx" title="Login"  description=""/>-->
+    <!--<siteMapNode url="" title="Generate Reports "  description="">
+      <siteMapNode url="~/BrokerReport.aspx" title="Broker Reports "  description=""/>
+      <siteMapNode url="~/GradingReports.aspx" title="Grading Reports "  description=""/>
+    </siteMapNode>-->
+  </siteMapNode>
+</siteMap>

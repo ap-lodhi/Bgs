@@ -1,0 +1,588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\SKC\Desktop\bgs_publish</_PublishTargetUrl>
+    <History>True|2022-12-21T06:58:37.7301614Z;True|2022-12-21T12:20:49.8142256+05:30;True|2022-12-17T11:58:34.8124510+05:30;True|2022-12-15T15:29:44.9106296+05:30;True|2022-12-14T16:57:14.8254377+05:30;True|2022-12-14T16:57:03.7353365+05:30;True|2022-11-21T11:13:25.9346699+05:30;True|2022-11-16T17:33:45.8828944+05:30;True|2022-10-31T17:35:14.4579869+05:30;True|2022-10-31T14:26:33.6484450+05:30;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdjustedWeightageReports.aspx">
+      <publishTime>12/20/2018 15:01:40</publishTime>
+    </File>
+    <File Include="AttachPDFWithMail/Howtoreadvotes.pdf">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/22/2012 12:50:18</publishTime>
+    </File>
+    <File Include="bin/BGS.dll">
+      <publishTime>12/21/2022 12:28:20</publishTime>
+    </File>
+    <File Include="bin/BGS.pdb">
+      <publishTime>12/21/2022 12:28:20</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>12/16/2014 14:34:10</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>09/01/2012 02:24:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/01/2016 11:10:30</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/01/2016 11:10:30</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>06/01/2016 11:08:24</publishTime>
+    </File>
+    <File Include="BrokerAdjustedScore.aspx">
+      <publishTime>01/24/2019 10:36:16</publishTime>
+    </File>
+    <File Include="BrokerEmailListing.aspx">
+      <publishTime>10/31/2022 17:26:00</publishTime>
+    </File>
+    <File Include="BrokerGradingReports.aspx">
+      <publishTime>12/31/2018 16:27:12</publishTime>
+    </File>
+    <File Include="BrokerMaster.aspx">
+      <publishTime>09/24/2022 11:35:37</publishTime>
+    </File>
+    <File Include="BrokerRanking.aspx">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="BrokerRankReport.aspx">
+      <publishTime>10/29/2022 13:44:34</publishTime>
+    </File>
+    <File Include="CalculateRank.aspx">
+      <publishTime>09/22/2022 18:57:16</publishTime>
+    </File>
+    <File Include="ChangePassword.aspx">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/AutoExtender.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/sidebar_Junk.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/style.css">
+      <publishTime>08/10/2018 15:23:04</publishTime>
+    </File>
+    <File Include="CSS/styles.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/styles1.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/StyleSheet.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/style_menu.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="CSS/template.css">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="DownloadFile/BrokerUploadFormat.xls">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="DownloadFile/UserMannualAssosiate.html">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="DownloadFile/User_Manual_for_Associates.doc">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="DownloadFile/User_Manual_for_Associates.docx">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="EmailTemplate/BrokerSendEmail.html">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="EmailTemplate/InitiateGrading.html">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="EmailTemplate/ReOpen.html">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="EmailTemplate/UserCreation.html">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="ForgetPwd.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="GradingMaster.aspx">
+      <publishTime>12/14/2022 16:35:23</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/123.JPG">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/1234.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/aboutus.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/about_1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/about_us.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Active.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/ajax-loader.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/ajax-loader_1.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg-black.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg-dark.png.jpeg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg-header - Copy.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg-header.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg-page.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg-sidemenu.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg123.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg123.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bgImage.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bgImage1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bgImage23.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bg_form_field.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Big flower.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bottom.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bottomOval.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/bottomOval1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Calendar_scheduleHS.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/CenterOval.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/CenterOval1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/close.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/close.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/contact.jpeg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/credit-cards.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/cube_3.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DDImage.bmp">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/down.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/downarrow.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/drop-arrow.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DropDownl.bmp">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DropDownList.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DSCF9549.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DSCF9557.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DSCF9585.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DSCF9593.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/DSCF9595.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/fancy_close.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/fileDown.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/footer.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/h2_bg_top.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/HeaderLogo.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/header_bg.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/heading_bg.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/heading_bg1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/heading_bgbtn.bmp">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/hero-icon-search.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/hero-icon-search1.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/icon-feed.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/images %283%29.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/images %285%29.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/images %286%29.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/imagesCAQUS7T1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/imagesCAYXZY70.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/infoHead.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/ItsfmgLogo.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/ItsfmgLogo123.bmp">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/ItsfmgLogo1234.bmp">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Left - Copy.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Left.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Left12.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Left3.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/loader.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/loader_1.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/login/icon_back_login.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/login/inp_login.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/login/loginbox_bg.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/login/login_bg.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/login/submit_login.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/loginbutton.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/logo-dogcollars - Copy.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/logo-dogcollars.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/logo.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/logoiD.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/logolatest.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/l_menu.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/l_menu1.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/MainLogoImg - Copy.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/MainLogoImg.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/MainLogoImg1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/MainLogoImgWhite.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/m_h3.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/orangeuti.JPG">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Pik Big.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/port_1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/port_2.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/port_3.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/port_4.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/port_5.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/port_6.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/right-arrow.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Right.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/rightOval.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/rightOval1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/rss.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/r_menu.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/r_menu1.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/search.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/search_bg.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/send.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/simple_img_1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/simple_img_2.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/simple_img_3.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/simple_img_4.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/slider_bg.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/slider_bg_bottom.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/spacer.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/top_img_1.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/top_img_2.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/top_img_3.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/Untitled.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/up-arrow.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/up.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/uparrow.gif">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UserMannual/1.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UserMannual/2.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UserMannual/3.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UserMannual/4.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UserMannual/5.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UTI-logo.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/UTIMF.png">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/uti_logo.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="Images/uti_mutual_fund.jpg">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="JS/JQuery.js">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="JS/JScript.js">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="JS/JScript_Old.js">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="LoginMaster.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="MasterPages/LoginMaster.master">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="MasterPages/MasterPage.master">
+      <publishTime>06/01/2016 11:06:00</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="QuarterMaster.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="ScreenAllocation.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="SectorMaster.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="UserControls/Login.ascx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="UserControls/LoginBox.ascx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="UserControls/ScreenAllocation.ascx">
+      <publishTime>06/19/2018 16:04:58</publishTime>
+    </File>
+    <File Include="UserControls/usctrl_UserDetails.ascx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="UserControls/usctrl_UserHeaderActions.ascx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="UserMaster.aspx">
+      <publishTime>11/21/2022 11:21:40</publishTime>
+    </File>
+    <File Include="UTIBGSModel.edmx.diagram">
+      <publishTime>10/16/2018 11:48:36</publishTime>
+    </File>
+    <File Include="VoterScreen.aspx">
+      <publishTime>09/20/2022 11:27:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/21/2022 12:28:37</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="WebService/AutoComplete.asmx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+    <File Include="weightMaster.aspx">
+      <publishTime>06/01/2016 11:06:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

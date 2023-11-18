@@ -1,0 +1,39 @@
+﻿.AutoExtender
+{
+	border: solid 1px #ccc;
+	padding: 10px;
+	background-color: White;
+	margin-left: 0px;
+	z-index: 20000;
+	width: 300px;
+	height: 150px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.AutoExtenderList
+{
+	border-bottom: solid 1px #ccc;
+	cursor: pointer;
+	color: Maroon;
+	padding: 2px 0 2px 0px;
+}
+.AutoExtenderHighlight
+{
+	color: #ffffff;
+	border-bottom: solid 1px #ccc;
+	background-color: #627AAD;
+	cursor: pointer;
+	padding: 2px 0 2px 0px;
+}
+
+
+.divauto
+{
+	color: brown;
+	font-size: 12px;
+	text-transform: none;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 200px;
+	text-transform: capitalize;
+	z-index: 20000;
+}

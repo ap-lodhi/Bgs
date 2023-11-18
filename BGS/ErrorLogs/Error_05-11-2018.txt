@@ -1,0 +1,52 @@
+Þ
+>>
+ Error Occurred:--11/05/2018 2:44:02 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<SaveForLater>b__31_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 182
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 184\Þ
+>>
+ Error Occurred:--11/05/2018 2:48:12 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<SaveForLater>b__31_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 182
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 184\Þ
+>>
+ Error Occurred:--11/05/2018 2:52:21 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<SaveForLater>b__31_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 182
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 184\Þ
+>>
+ Error Occurred:--11/05/2018 3:04:18 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<SaveForLater>b__31_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 182
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 184\Þ
+>>
+ Error Occurred:--11/05/2018 3:32:35 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<SaveForLater>b__31_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 182
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 184\•
+>>
+ Error Occurred:--11/05/2018 7:03:16 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 535\

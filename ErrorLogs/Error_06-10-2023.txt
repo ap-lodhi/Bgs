@@ -1,0 +1,57 @@
+:
+>>
+ Error Occurred:--10/6/2023 2:41:05 PM>>
+Ok\>>
+Ok\V
+>>
+ Error Occurred:--10/6/2023 2:41:08 PM>>
+Query response :\>>
+Query response :\:
+>>
+ Error Occurred:--10/6/2023 2:41:34 PM>>
+Ok\>>
+Ok\V
+>>
+ Error Occurred:--10/6/2023 2:41:34 PM>>
+Query response :\>>
+Query response :\:
+>>
+ Error Occurred:--10/6/2023 2:41:55 PM>>
+Ok\>>
+Ok\V
+>>
+ Error Occurred:--10/6/2023 2:41:55 PM>>
+Query response :\>>
+Query response :\:
+>>
+ Error Occurred:--10/6/2023 3:15:39 PM>>
+Ok\>>
+Ok\V
+>>
+ Error Occurred:--10/6/2023 3:15:41 PM>>
+Query response :\>>
+Query response :\:
+>>
+ Error Occurred:--10/6/2023 3:56:46 PM>>
+Ok\>>
+Ok\V
+>>
+ Error Occurred:--10/6/2023 3:56:47 PM>>
+Query response :\>>
+Query response :\:
+>>
+ Error Occurred:--10/6/2023 6:19:41 PM>>
+Ok\>>
+Ok\ä
+>>
+ Error Occurred:--10/6/2023 6:19:44 PM>>
+Query response :{ EMPID = 4003, ISFORCE = True, ISUTI = True, ROLEID = 5, Isactive = True, USERNAME = Ayush Jain, UserTypeName = Admin, GradingID = 0 }\>>
+Query response :{ EMPID = 4003, ISFORCE = True, ISUTI = True, ROLEID = 5, Isactive = True, USERNAME = Ayush Jain, UserTypeName = Admin, GradingID = 0 }\:
+>>
+ Error Occurred:--10/6/2023 6:25:29 PM>>
+Ok\>>
+Ok\ä
+>>
+ Error Occurred:--10/6/2023 6:25:29 PM>>
+Query response :{ EMPID = 4003, ISFORCE = True, ISUTI = True, ROLEID = 5, Isactive = True, USERNAME = Ayush Jain, UserTypeName = Admin, GradingID = 0 }\>>
+Query response :{ EMPID = 4003, ISFORCE = True, ISUTI = True, ROLEID = 5, Isactive = True, USERNAME = Ayush Jain, UserTypeName = Admin, GradingID = 0 }\

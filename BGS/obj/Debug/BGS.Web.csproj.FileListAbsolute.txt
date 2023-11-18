@@ -1,0 +1,196 @@
+D:\Prakash\BGS\BGS\bin\BGS.dll.config
+D:\Prakash\BGS\BGS\bin\BGS.dll
+D:\Prakash\BGS\BGS\bin\BGS.pdb
+D:\Prakash\BGS\BGS\bin\EntityFramework.dll
+D:\Prakash\BGS\BGS\bin\EntityFramework.SqlServer.dll
+D:\Prakash\BGS\BGS\bin\itextsharp.dll
+D:\Prakash\BGS\BGS\bin\EntityFramework.xml
+D:\Prakash\BGS\BGS\bin\EntityFramework.SqlServer.xml
+D:\Prakash\BGS\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\Prakash\BGS\BGS\obj\Debug\BGS.dll
+D:\Prakash\BGS\BGS\obj\Debug\BGS.pdb
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\BGS.dll.config
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\BGS.dll
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\BGS.pdb
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\EntityFramework.dll
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\EntityFramework.SqlServer.dll
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\itextsharp.dll
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\EntityFramework.xml
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\bin\EntityFramework.SqlServer.xml
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\obj\Debug\BGS.dll
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\obj\Debug\BGS.pdb
+D:\Shashi\UTI_Project\BGS_File\BGS\BGS\obj\Debug\BGS.Web.csprojResolveAssemblyReference.cache
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\BGS.dll.config
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\BGS.dll
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\BGS.pdb
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.dll
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.SqlServer.dll
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\itextsharp.dll
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.xml
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.SqlServer.xml
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.dll
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.pdb
+C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.Web.csprojResolveAssemblyReference.cache
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\BGS.dll.config
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\BGS.dll
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\BGS.pdb
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.dll
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.SqlServer.dll
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\itextsharp.dll
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.xml
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\bin\EntityFramework.SqlServer.xml
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.Web.csprojResolveAssemblyReference.cache
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.dll
+D:\Deependra\UTI_Project\Change_Code\BGS\BGS\obj\Debug\BGS.pdb
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\BGS.dll.config
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\BGS.dll
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\BGS.pdb
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\EntityFramework.dll
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\EntityFramework.SqlServer.dll
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\itextsharp.dll
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\EntityFramework.xml
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\bin\EntityFramework.SqlServer.xml
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\obj\Debug\BGS.dll
+D:\Deependra\UTI_Project\Change_Code\BGS_Latest\BGS\obj\Debug\BGS.pdb
+D:\UTI W\Development\BGS_Latest\BGS\bin\BGS.dll.config
+D:\UTI W\Development\BGS_Latest\BGS\bin\BGS.dll
+D:\UTI W\Development\BGS_Latest\BGS\bin\BGS.pdb
+D:\UTI W\Development\BGS_Latest\BGS\bin\EntityFramework.dll
+D:\UTI W\Development\BGS_Latest\BGS\bin\EntityFramework.SqlServer.dll
+D:\UTI W\Development\BGS_Latest\BGS\bin\itextsharp.dll
+D:\UTI W\Development\BGS_Latest\BGS\bin\EntityFramework.xml
+D:\UTI W\Development\BGS_Latest\BGS\bin\EntityFramework.SqlServer.xml
+D:\UTI W\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\UTI W\Development\BGS_Latest\BGS\obj\Debug\BGS.dll
+D:\UTI W\Development\BGS_Latest\BGS\obj\Debug\BGS.pdb
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\BGS.dll.config
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\BGS.dll
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\BGS.pdb
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\EntityFramework.dll
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\EntityFramework.SqlServer.dll
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\itextsharp.dll
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\EntityFramework.xml
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\bin\EntityFramework.SqlServer.xml
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csprojResolveAssemblyReference.cache
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\obj\Debug\BGS.dll
+D:\UTI PROJ\UTI W\UTI Web APP\Development\BGS_Latest\BGS\obj\Debug\BGS.pdb
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\BGS.dll.config
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\BGS.dll
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\BGS.pdb
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\EntityFramework.dll
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\EntityFramework.SqlServer.dll
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\itextsharp.dll
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\EntityFramework.xml
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\bin\EntityFramework.SqlServer.xml
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\obj\Debug\BGS.dll
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\obj\Debug\BGS.pdb
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csprojAssemblyReference.cache
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.CoreCompileInputs.cache
+D:\UTI AWS WORK\Development\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.CopyComplete
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\BGS.dll.config
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\BGS.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\BGS.pdb
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\EntityFramework.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\EntityFramework.SqlServer.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\itextsharp.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\DocumentFormat.OpenXml.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\EntityFramework.xml
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\EntityFramework.SqlServer.xml
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\bin\DocumentFormat.OpenXml.xml
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.CoreCompileInputs.cache
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.CopyComplete
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\obj\Debug\BGS.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\obj\Debug\BGS.pdb
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest\BGS\obj\Debug\BGS.Web.csproj.AssemblyReference.cache
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\BGS.dll.config
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\BGS.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\BGS.pdb
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\EntityFramework.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\itextsharp.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\EntityFramework.xml
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.xml
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.xml
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.AssemblyReference.cache
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CoreCompileInputs.cache
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CopyComplete
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\obj\Debug\BGS.dll
+C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\obj\Debug\BGS.pdb
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\BGS.dll.config
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\BGS.dll
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\BGS.pdb
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.dll
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.dll
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\itextsharp.dll
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.dll
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.xml
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.xml
+D:\final.net_project\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.xml
+D:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+D:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CoreCompileInputs.cache
+D:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CopyComplete
+D:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.dll
+D:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.pdb
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\BGS.dll.config
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\BGS.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\BGS.pdb
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\itextsharp.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.xml
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.xml
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CoreCompileInputs.cache
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CopyComplete
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.pdb
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.AssemblyReference.cache
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\BGS.dll.config
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\BGS.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\BGS.pdb
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\EntityFramework.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\itextsharp.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\EntityFramework.xml
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\EntityFramework.SqlServer.xml
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.xml
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.AssemblyReference.cache
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.ResolveComReference.cache
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CoreCompileInputs.cache
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.CopyComplete
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.pdb
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\Recaptcha.dll
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\bin\Recaptcha.pdb
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\Activity1.g.xaml
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS_Activity1_BeforeInitializeComponentHelper.txt
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\_BGS.g.cs
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\Activity1.g.cs
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS_Activity1_BeforeInitializeComponentHelper.cs
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.FileListAbsolute.txt
+C:\Users\rc\Desktop\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.XamlPass2Flag.txt
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\Recaptcha.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.dll
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\Recaptcha.pdb
+C:\final.net_project\BGS_Latest_20sep\BGS\bin\DocumentFormat.OpenXml.xml
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\Activity1.g.xaml
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS_Activity1_BeforeInitializeComponentHelper.txt
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\_BGS.g.cs
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\Activity1.g.cs
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS_Activity1_BeforeInitializeComponentHelper.cs
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\BGS.Web.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\final.net_project\BGS_Latest_20sep\BGS\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml

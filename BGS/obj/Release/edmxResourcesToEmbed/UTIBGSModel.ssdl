@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BGSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="BrokerAnalyst">
+    <Key>
+      <PropertyRef Name="BrokerAnalystId" />
+    </Key>
+    <Property Name="BrokerAnalystId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BrokerID" Type="int" Nullable="false" />
+    <Property Name="EmpID" Type="varchar" MaxLength="20" />
+    <Property Name="VoteID" Type="int" />
+    <Property Name="DeptID" Type="int" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="BrokerConfig">
+    <Key>
+      <PropertyRef Name="BrokerConfigId" />
+    </Key>
+    <Property Name="BrokerConfigId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuarterId" Type="int" Nullable="false" />
+    <Property Name="IsEmailSend" Type="bit" />
+    <Property Name="BrokerNameId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BrokerMaster">
+    <Key>
+      <PropertyRef Name="BrokerID" />
+    </Key>
+    <Property Name="BrokerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SectorID" Type="int" />
+    <Property Name="BrokerTypeID" Type="int" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="EmailID" Type="varchar" MaxLength="50" />
+    <Property Name="Number" Type="varchar" MaxLength="20" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="BrokerNameID" Type="int" />
+  </EntityType>
+  <EntityType Name="BrokerNameMaster">
+    <Key>
+      <PropertyRef Name="BrokerNameID" />
+    </Key>
+    <Property Name="BrokerNameID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BrokerName" Type="varchar" MaxLength="100" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="MaxLimit" Type="int" />
+    <Property Name="EmailStatus" Type="bit" />
+    <Property Name="Broker_DofaCode" Type="int" />
+  </EntityType>
+  <EntityType Name="BrokerTypeMaster">
+    <Key>
+      <PropertyRef Name="BrokerTypeID" />
+    </Key>
+    <Property Name="BrokerTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BrokerType" Type="varchar" MaxLength="50" />
+    <Property Name="BrokerTypeValue" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DepartmentMaster">
+    <Key>
+      <PropertyRef Name="DeptID" />
+    </Key>
+    <Property Name="DeptID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DeptName" Type="varchar" MaxLength="50" />
+    <Property Name="Isactive" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="DOD_DOFAReason">
+    <Key>
+      <PropertyRef Name="ReasonID" />
+    </Key>
+    <Property Name="ReasonID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ReasonName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLogs">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PAGE_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="ERROR_CODE" Type="nvarchar" MaxLength="30" />
+    <Property Name="ERROR_DETAIL" Type="varchar" MaxLength="2000" />
+    <Property Name="DATE" Type="datetime" />
+    <Property Name="Created_By" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="GradingMaster">
+    <Key>
+      <PropertyRef Name="GradingID" />
+    </Key>
+    <Property Name="GradingID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuarterID" Type="int" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="EmpID" Type="varchar" MaxLength="20" />
+    <Property Name="IsConfirm" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="IsSend" Type="bit" />
+    <Property Name="IsVoterSubmit" Type="bit" />
+  </EntityType>
+  <EntityType Name="GradingMaster_Archive">
+    <Key>
+      <PropertyRef Name="AutoID" />
+    </Key>
+    <Property Name="AutoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GradingID" Type="int" />
+    <Property Name="QuarterID" Type="int" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="StatusID" Type="int" />
+    <Property Name="EmpID" Type="varchar" MaxLength="20" />
+    <Property Name="IsConfirm" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="IsSend" Type="bit" />
+  </EntityType>
+  <EntityType Name="ModuleMaster">
+    <Key>
+      <PropertyRef Name="ModuleID" />
+    </Key>
+    <Property Name="ModuleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ModuleName" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="QuarterMaster">
+    <Key>
+      <PropertyRef Name="QuarterID" />
+    </Key>
+    <Property Name="QuarterID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="QuarterYear" Type="int" />
+    <Property Name="Isactive" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="EndDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BGS_UAT.dbo.RankMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="RankMaster">
+    <Key>
+      <PropertyRef Name="RankId" />
+    </Key>
+    <Property Name="RankId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BrokerNameID" Type="int" />
+    <Property Name="QuarterID" Type="int" />
+    <Property Name="VoteId" Type="int" />
+    <Property Name="MaxLimit" Type="int" />
+    <Property Name="Rank" Type="int" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="TotalScores" Type="float" />
+  </EntityType>
+  <EntityType Name="RoleMaster">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="varchar" MaxLength="50" />
+    <Property Name="Isactive" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="ScreenAssignDetails">
+    <Key>
+      <PropertyRef Name="ScreenAssignId" />
+    </Key>
+    <Property Name="ScreenAssignId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ModuleId" Type="int" />
+    <Property Name="ScreenId" Type="int" />
+    <Property Name="UserTypeID" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="ScreenMaster">
+    <Key>
+      <PropertyRef Name="ScreenID" />
+    </Key>
+    <Property Name="ScreenID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ModuleID" Type="int" />
+    <Property Name="ScreenName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="URL" Type="nvarchar" MaxLength="500" />
+    <Property Name="IsParent" Type="bit" />
+  </EntityType>
+  <EntityType Name="SectorMaster">
+    <Key>
+      <PropertyRef Name="SectorId" />
+    </Key>
+    <Property Name="SectorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SectorName" Type="varchar" MaxLength="100" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="100" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="100" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="StatusMaster">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusName" Type="varchar" MaxLength="50" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'BGS_UAT.dbo.UserMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="UserMaster">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="EmpID" Type="varchar" MaxLength="50" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="DeptID" Type="int" />
+    <Property Name="EmailID" Type="varchar" MaxLength="50" />
+    <Property Name="Isactive" Type="bit" />
+    <Property Name="Isforce" Type="bit" />
+    <Property Name="IsUTI" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="UserTypeID" Type="int" />
+    <Property Name="BrokerNameID" Type="int" />
+  </EntityType>
+  <EntityType Name="UserType">
+    <Key>
+      <PropertyRef Name="UserTypeID" />
+    </Key>
+    <Property Name="UserTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserType" Type="varchar" MaxLength="50" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="LoginType" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="VoteMaster">
+    <Key>
+      <PropertyRef Name="VoteID" />
+    </Key>
+    <Property Name="VoteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Vote" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="BrokerID" Type="int" />
+    <Property Name="GradingID" Type="int" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="MaxLimit" Type="int" />
+    <Property Name="AnalystName" Type="varchar" MaxLength="50" />
+    <Property Name="Score" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="SectorID" Type="int" />
+    <Property Name="BrokerNameId" Type="int" />
+    <Property Name="FMComments" Type="varchar(max)" />
+    <Property Name="ReasonID" Type="int" />
+  </EntityType>
+  <EntityType Name="WeightMaster">
+    <Key>
+      <PropertyRef Name="WeightID" />
+    </Key>
+    <Property Name="WeightID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleID" Type="int" />
+    <Property Name="DeptID" Type="int" />
+    <Property Name="Weight" Type="float" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DelStatus" Type="bit" />
+    <Property Name="EmpId" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__VoteMaste__Reaso__318258D2">
+    <End Role="DOD_DOFAReason" Type="Self.DOD_DOFAReason" Multiplicity="0..1" />
+    <End Role="VoteMaster" Type="Self.VoteMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DOD_DOFAReason">
+        <PropertyRef Name="ReasonID" />
+      </Principal>
+      <Dependent Role="VoteMaster">
+        <PropertyRef Name="ReasonID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BrokerAnalyst_StatusMaster_StatusID">
+    <End Role="StatusMaster" Type="Self.StatusMaster" Multiplicity="0..1" />
+    <End Role="BrokerAnalyst" Type="Self.BrokerAnalyst" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusMaster">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="BrokerAnalyst">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BrokerConfig_BrokerNameMaster">
+    <End Role="BrokerNameMaster" Type="Self.BrokerNameMaster" Multiplicity="1" />
+    <End Role="BrokerConfig" Type="Self.BrokerConfig" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BrokerNameMaster">
+        <PropertyRef Name="BrokerNameID" />
+      </Principal>
+      <Dependent Role="BrokerConfig">
+        <PropertyRef Name="BrokerNameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BrokerMaster_BrokerMaster">
+    <End Role="BrokerMaster" Type="Self.BrokerMaster" Multiplicity="1" />
+    <End Role="BrokerMaster1" Type="Self.BrokerMaster" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="BrokerMaster">
+        <PropertyRef Name="BrokerID" />
+      </Principal>
+      <Dependent Role="BrokerMaster1">
+        <PropertyRef Name="BrokerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BrokerMaster_BrokerMasterType_BrokerTypeName">
+    <End Role="BrokerTypeMaster" Type="Self.BrokerTypeMaster" Multiplicity="0..1" />
+    <End Role="BrokerMaster" Type="Self.BrokerMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BrokerTypeMaster">
+        <PropertyRef Name="BrokerTypeID" />
+      </Principal>
+      <Dependent Role="BrokerMaster">
+        <PropertyRef Name="BrokerTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BrokerMaster_BrokerNameMaster_BrokerNameId">
+    <End Role="BrokerNameMaster" Type="Self.BrokerNameMaster" Multiplicity="0..1" />
+    <End Role="BrokerMaster" Type="Self.BrokerMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BrokerNameMaster">
+        <PropertyRef Name="BrokerNameID" />
+      </Principal>
+      <Dependent Role="BrokerMaster">
+        <PropertyRef Name="BrokerNameID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GradingMaster_QuarterMaster_QuarterID">
+    <End Role="QuarterMaster" Type="Self.QuarterMaster" Multiplicity="0..1" />
+    <End Role="GradingMaster" Type="Self.GradingMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuarterMaster">
+        <PropertyRef Name="QuarterID" />
+      </Principal>
+      <Dependent Role="GradingMaster">
+        <PropertyRef Name="QuarterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GradingMaster_StatusMaster_StatusID">
+    <End Role="StatusMaster" Type="Self.StatusMaster" Multiplicity="0..1" />
+    <End Role="GradingMaster" Type="Self.GradingMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusMaster">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="GradingMaster">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RankMaster_QuarterMaster_QuarterID">
+    <End Role="QuarterMaster" Type="Self.QuarterMaster" Multiplicity="0..1" />
+    <End Role="RankMaster" Type="Self.RankMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuarterMaster">
+        <PropertyRef Name="QuarterID" />
+      </Principal>
+      <Dependent Role="RankMaster">
+        <PropertyRef Name="QuarterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RankMaster_RankMaster_BrokerNameID">
+    <End Role="BrokerNameMaster" Type="Self.BrokerNameMaster" Multiplicity="0..1" />
+    <End Role="RankMaster" Type="Self.RankMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BrokerNameMaster">
+        <PropertyRef Name="BrokerNameID" />
+      </Principal>
+      <Dependent Role="RankMaster">
+        <PropertyRef Name="BrokerNameID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScreenAssignDetails_ModuleMaster_ModuleID">
+    <End Role="ModuleMaster" Type="Self.ModuleMaster" Multiplicity="0..1" />
+    <End Role="ScreenAssignDetails" Type="Self.ScreenAssignDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ModuleMaster">
+        <PropertyRef Name="ModuleID" />
+      </Principal>
+      <Dependent Role="ScreenAssignDetails">
+        <PropertyRef Name="ModuleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScreenAssignDetails_ScreenMaster_ScreenID">
+    <End Role="ScreenMaster" Type="Self.ScreenMaster" Multiplicity="0..1" />
+    <End Role="ScreenAssignDetails" Type="Self.ScreenAssignDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ScreenMaster">
+        <PropertyRef Name="ScreenID" />
+      </Principal>
+      <Dependent Role="ScreenAssignDetails">
+        <PropertyRef Name="ScreenId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScreenMaster_ModuleMaster_ModuleID">
+    <End Role="ModuleMaster" Type="Self.ModuleMaster" Multiplicity="0..1" />
+    <End Role="ScreenMaster" Type="Self.ScreenMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ModuleMaster">
+        <PropertyRef Name="ModuleID" />
+      </Principal>
+      <Dependent Role="ScreenMaster">
+        <PropertyRef Name="ModuleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_BrokerConfig_QuarterMaster">
+    <End Role="QuarterMaster" Type="Self.QuarterMaster" Multiplicity="1" />
+    <End Role="BrokerConfig" Type="Self.BrokerConfig" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuarterMaster">
+        <PropertyRef Name="QuarterID" />
+      </Principal>
+      <Dependent Role="BrokerConfig">
+        <PropertyRef Name="QuarterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VoteMaster_GradingMaster_GradingID">
+    <End Role="GradingMaster" Type="Self.GradingMaster" Multiplicity="0..1" />
+    <End Role="VoteMaster" Type="Self.VoteMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GradingMaster">
+        <PropertyRef Name="GradingID" />
+      </Principal>
+      <Dependent Role="VoteMaster">
+        <PropertyRef Name="GradingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="VoteMaster_BrokerNameId_BrokerNameID">
+    <End Role="BrokerNameMaster" Type="Self.BrokerNameMaster" Multiplicity="0..1" />
+    <End Role="VoteMaster" Type="Self.VoteMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BrokerNameMaster">
+        <PropertyRef Name="BrokerNameID" />
+      </Principal>
+      <Dependent Role="VoteMaster">
+        <PropertyRef Name="BrokerNameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AuthenticateDublicateVoter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+    <Parameter Name="AnalystName" Type="varchar" Mode="In" />
+    <Parameter Name="SectorID" Type="int" Mode="In" />
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGD_GetBrokerNameMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_AssignScreen_linking" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmployeeId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_AssignScreenToUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SCREENID" Type="int" Mode="In" />
+    <Parameter Name="MODULEID" Type="int" Mode="In" />
+    <Parameter Name="EMPLOYEEID" Type="varchar" Mode="In" />
+    <Parameter Name="SCREENASSIGNID" Type="int" Mode="In" />
+    <Parameter Name="CREATEDBY" Type="varchar" Mode="In" />
+    <Parameter Name="ACTIVE" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="BGS_AuthenticateBrokerMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+    <Parameter Name="BrokerTypeID" Type="int" Mode="In" />
+    <Parameter Name="AnalystName" Type="varchar" Mode="In" />
+    <Parameter Name="SectorID" Type="int" Mode="In" />
+    <Parameter Name="BrokerID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_AuthenticateGrading" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_BindBrokerName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_BindQuarter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_BindSectorMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_BindUserMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserName" Type="varchar" Mode="In" />
+    <Parameter Name="Type" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_BindVoter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_BrokerMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TransType" Type="varchar" Mode="In" />
+    <Parameter Name="BrokerID" Type="int" Mode="In" />
+    <Parameter Name="SectorID" Type="int" Mode="In" />
+    <Parameter Name="BrokerTypeID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Number" Type="varchar" Mode="In" />
+    <Parameter Name="EmailID" Type="varchar" Mode="In" />
+    <Parameter Name="CreatedBy" Type="varchar" Mode="In" />
+    <Parameter Name="UpdatedBy" Type="varchar" Mode="In" />
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_CalculateRank" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_ChangePassword" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+    <Parameter Name="OldPassword" Type="varchar" Mode="In" />
+    <Parameter Name="NewPassword" Type="varchar" Mode="In" />
+    <Parameter Name="Message" Type="varchar" Mode="InOut" />
+  </Function>
+  <Function Name="BGS_CheckRankInsert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="quarter" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_CheckUtiUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+    <Parameter Name="BIT" Type="bit" Mode="InOut" />
+  </Function>
+  <Function Name="BGS_DeleteBrokerMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_DeleteQuarterMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_DeleteUsers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="USERID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_DeleteVoteMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="VoteID" Type="int" Mode="In" />
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetALLBrokerAnalyst" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetAnalystName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Prefix" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetAsssignScreens" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EMPID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBokerNameID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerAnalyst" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerDetailsByBrokerNameBrokerAnalyst" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+    <Parameter Name="BrokerNameSearch" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerMaxLimit" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="prefix" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerNameForBrokerMster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="prefix" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerOrFirmName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokeSerach" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerRanking" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetBrokerReportByCurrentQuarter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerReportByLastQuarter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerTypeMasterData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetBrokerUploadData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetBrokerWiseQuarterRank" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetCuurentQuarterVoterStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="quarterID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetDOD_DOFAReason" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="prefix" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetEmailListing" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetError" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Page" Type="varchar" Mode="In" />
+    <Parameter Name="ErrorCode" Type="nvarchar" Mode="In" />
+    <Parameter Name="ErrorDetail" Type="varchar" Mode="In" />
+    <Parameter Name="Date" Type="nvarchar" Mode="In" />
+    <Parameter Name="Created_By" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetGradingMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="DeptID" Type="varchar(max)" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetLastQuarterNameById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetPerBrokerRankStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetPreviousQuarterId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="BGS_GetQuarterMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetQuarterName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Prefix" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetQuarterNameById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetQuarterNameDuteDate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetQuarterWiseBrokerReport" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+    <Parameter Name="VoterName" Type="varchar" Mode="In" />
+    <Parameter Name="SectorName" Type="varchar" Mode="In" />
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetRABrokerName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetRoleDeptDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetSector" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_GetSectorWiseBrokerData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="SectorId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetUserDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EMPID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetUserDetailsForVoter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetUserTypes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="LOGINTYPE" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetVoterByCurrentQuarter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetVoterByLastQuarter" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetVoterName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetVoterSector" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+    <Parameter Name="AnalystName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_GetWeightMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_InsertBrokerConfigforBrokerEmail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerNameId" Type="int" Mode="In" />
+    <Parameter Name="QuarterId" Type="int" Mode="In" />
+    <Parameter Name="EmailStatus" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="BGS_InsertNewQuarterGrading" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="QuarterName" Type="varchar" Mode="In" />
+    <Parameter Name="QurterDueDate" Type="datetime" Mode="In" />
+    <Parameter Name="QurterStartDate" Type="datetime" Mode="In" />
+    <Parameter Name="QurterEndDate" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="BGS_InsertRank" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+    <Parameter Name="VoteID" Type="int" Mode="In" />
+    <Parameter Name="MaxLimit" Type="int" Mode="In" />
+    <Parameter Name="Rank" Type="int" Mode="In" />
+    <Parameter Name="CreatedBy" Type="varchar" Mode="In" />
+    <Parameter Name="totalScore" Type="float" Mode="In" />
+  </Function>
+  <Function Name="BGS_InsertUpdateUsers" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EMPLOYEEID" Type="varchar" Mode="In" />
+    <Parameter Name="USERPWD" Type="varchar" Mode="In" />
+    <Parameter Name="ROLEID" Type="int" Mode="In" />
+    <Parameter Name="DEPTID" Type="int" Mode="In" />
+    <Parameter Name="ISACITVE" Type="bit" Mode="In" />
+    <Parameter Name="EMAILID" Type="varchar" Mode="In" />
+    <Parameter Name="NAME" Type="varchar" Mode="In" />
+    <Parameter Name="ISFORCE" Type="bit" Mode="In" />
+    <Parameter Name="ISUTI" Type="bit" Mode="In" />
+    <Parameter Name="CREATEDBY" Type="varchar" Mode="In" />
+    <Parameter Name="WEIGHT" Type="float" Mode="In" />
+    <Parameter Name="USERTYPE" Type="int" Mode="In" />
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+    <Parameter Name="MaxLimit" Type="int" Mode="In" />
+    <Parameter Name="Dofacode" Type="int" Mode="In" />
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_InsertUpdateVoteMAster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="BGS_IsAuthenticateBroker" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+    <Parameter Name="Password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_IsRankSent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_IsVendorValid" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmployeeId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_QuarterMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TransType" Type="varchar" Mode="In" />
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Year" Type="int" Mode="In" />
+    <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+    <Parameter Name="UpdatedBy" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_ReopenGradingprocess" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StatusId" Type="int" Mode="In" />
+    <Parameter Name="GradingId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_SaveGradingMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="GradingId" Type="int" Mode="In" />
+    <Parameter Name="QuarterId" Type="int" Mode="In" />
+    <Parameter Name="QuarterName" Type="varchar" Mode="In" />
+    <Parameter Name="DueDate" Type="datetime" Mode="In" />
+    <Parameter Name="StatusId" Type="int" Mode="In" />
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+    <Parameter Name="IsConfirm" Type="bit" Mode="In" />
+    <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+    <Parameter Name="UpdatedBy" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_SaveWeightMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="WeightId" Type="int" Mode="In" />
+    <Parameter Name="RoleID" Type="int" Mode="In" />
+    <Parameter Name="DepID" Type="int" Mode="In" />
+    <Parameter Name="Weight" Type="float" Mode="In" />
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_SearchUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Search" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_UpdateEmailStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmailStatus" Type="bit" Mode="In" />
+    <Parameter Name="BrokerNameId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="BGS_UpdateVoteMasterStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Type" Type="varchar" Mode="In" />
+    <Parameter Name="GradingID" Type="int" Mode="In" />
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+    <Parameter Name="UserTypeName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_UploadBrokerAnalystDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_User_StatusChange" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EMPLOYEEID" Type="varchar" Mode="In" />
+    <Parameter Name="ISACITVE" Type="bit" Mode="In" />
+    <Parameter Name="ISFORCE" Type="bit" Mode="In" />
+    <Parameter Name="CREATEDBY" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="BGS_WeightMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="WeightId" Type="int" Mode="In" />
+    <Parameter Name="RoleID" Type="int" Mode="In" />
+    <Parameter Name="DepID" Type="int" Mode="In" />
+    <Parameter Name="Weight" Type="float" Mode="In" />
+    <Parameter Name="CreatedBy" Type="varchar" Mode="In" />
+    <Parameter Name="UpdatedBy" Type="varchar" Mode="In" />
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CalculateFirmScore" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="float">
+    <Parameter Name="QuaterId" Type="int" Mode="In" />
+    <Parameter Name="BrokerNameID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CalculateSectorScore" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="float">
+    <Parameter Name="QuaterId" Type="int" Mode="In" />
+    <Parameter Name="SectorId" Type="int" Mode="In" />
+    <Parameter Name="EmpId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Check_UserAuthentication" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmployeeId" Type="varchar" Mode="In" />
+    <Parameter Name="password" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="CountAnalysName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int">
+    <Parameter Name="SectorId" Type="int" Mode="In" />
+    <Parameter Name="QuarterID" Type="int" Mode="In" />
+    <Parameter Name="VoterName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetGradingStatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetMenuItem_Employee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmployeeId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetWeight" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="float">
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="IsPageValidForUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpID" Type="varchar" Mode="In" />
+    <Parameter Name="PageName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="IsUserExists" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmpId" Type="varchar" Mode="In" />
+    <Parameter Name="EmailID" Type="varchar" Mode="In" />
+    <Parameter Name="BrokerName" Type="varchar" Mode="In" />
+    <Parameter Name="DofaCode" Type="int" Mode="In" />
+  </Function>
+  <Function Name="SP_CheckUserEmployeeId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="EmployeeId" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="BGSModelStoreContainer">
+    <EntitySet Name="BrokerAnalyst" EntityType="Self.BrokerAnalyst" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BrokerConfig" EntityType="Self.BrokerConfig" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BrokerMaster" EntityType="Self.BrokerMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BrokerNameMaster" EntityType="Self.BrokerNameMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BrokerTypeMaster" EntityType="Self.BrokerTypeMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DepartmentMaster" EntityType="Self.DepartmentMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DOD_DOFAReason" EntityType="Self.DOD_DOFAReason" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ErrorLogs" EntityType="Self.ErrorLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GradingMaster" EntityType="Self.GradingMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GradingMaster_Archive" EntityType="Self.GradingMaster_Archive" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ModuleMaster" EntityType="Self.ModuleMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuarterMaster" EntityType="Self.QuarterMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RoleMaster" EntityType="Self.RoleMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ScreenAssignDetails" EntityType="Self.ScreenAssignDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ScreenMaster" EntityType="Self.ScreenMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SectorMaster" EntityType="Self.SectorMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusMaster" EntityType="Self.StatusMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserType" EntityType="Self.UserType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VoteMaster" EntityType="Self.VoteMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WeightMaster" EntityType="Self.WeightMaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RankMaster" EntityType="Self.RankMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[RankMaster].[RankId] AS [RankId], 
+[RankMaster].[BrokerNameID] AS [BrokerNameID], 
+[RankMaster].[QuarterID] AS [QuarterID], 
+[RankMaster].[VoteId] AS [VoteId], 
+[RankMaster].[MaxLimit] AS [MaxLimit], 
+[RankMaster].[Rank] AS [Rank], 
+[RankMaster].[CreatedBy] AS [CreatedBy], 
+[RankMaster].[CreatedOn] AS [CreatedOn], 
+[RankMaster].[UpdatedBy] AS [UpdatedBy], 
+[RankMaster].[UpdatedOn] AS [UpdatedOn], 
+[RankMaster].[DelStatus] AS [DelStatus], 
+[RankMaster].[TotalScores] AS [TotalScores]
+FROM [dbo].[RankMaster] AS [RankMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="UserMaster" EntityType="Self.UserMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[UserMaster].[UserID] AS [UserID], 
+[UserMaster].[UserName] AS [UserName], 
+[UserMaster].[Password] AS [Password], 
+[UserMaster].[EmpID] AS [EmpID], 
+[UserMaster].[RoleID] AS [RoleID], 
+[UserMaster].[DeptID] AS [DeptID], 
+[UserMaster].[EmailID] AS [EmailID], 
+[UserMaster].[Isactive] AS [Isactive], 
+[UserMaster].[Isforce] AS [Isforce], 
+[UserMaster].[IsUTI] AS [IsUTI], 
+[UserMaster].[CreatedBy] AS [CreatedBy], 
+[UserMaster].[CreatedOn] AS [CreatedOn], 
+[UserMaster].[UpdatedBy] AS [UpdatedBy], 
+[UserMaster].[UpdatedOn] AS [UpdatedOn], 
+[UserMaster].[DelStatus] AS [DelStatus], 
+[UserMaster].[UserTypeID] AS [UserTypeID], 
+[UserMaster].[BrokerNameID] AS [BrokerNameID]
+FROM [dbo].[UserMaster] AS [UserMaster]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__VoteMaste__Reaso__318258D2" Association="Self.FK__VoteMaste__Reaso__318258D2">
+      <End Role="DOD_DOFAReason" EntitySet="DOD_DOFAReason" />
+      <End Role="VoteMaster" EntitySet="VoteMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BrokerAnalyst_StatusMaster_StatusID" Association="Self.FK_BrokerAnalyst_StatusMaster_StatusID">
+      <End Role="StatusMaster" EntitySet="StatusMaster" />
+      <End Role="BrokerAnalyst" EntitySet="BrokerAnalyst" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BrokerConfig_BrokerNameMaster" Association="Self.FK_BrokerConfig_BrokerNameMaster">
+      <End Role="BrokerNameMaster" EntitySet="BrokerNameMaster" />
+      <End Role="BrokerConfig" EntitySet="BrokerConfig" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BrokerMaster_BrokerMaster" Association="Self.FK_BrokerMaster_BrokerMaster">
+      <End Role="BrokerMaster" EntitySet="BrokerMaster" />
+      <End Role="BrokerMaster1" EntitySet="BrokerMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BrokerMaster_BrokerMasterType_BrokerTypeName" Association="Self.FK_BrokerMaster_BrokerMasterType_BrokerTypeName">
+      <End Role="BrokerTypeMaster" EntitySet="BrokerTypeMaster" />
+      <End Role="BrokerMaster" EntitySet="BrokerMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BrokerMaster_BrokerNameMaster_BrokerNameId" Association="Self.FK_BrokerMaster_BrokerNameMaster_BrokerNameId">
+      <End Role="BrokerNameMaster" EntitySet="BrokerNameMaster" />
+      <End Role="BrokerMaster" EntitySet="BrokerMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GradingMaster_QuarterMaster_QuarterID" Association="Self.FK_GradingMaster_QuarterMaster_QuarterID">
+      <End Role="QuarterMaster" EntitySet="QuarterMaster" />
+      <End Role="GradingMaster" EntitySet="GradingMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GradingMaster_StatusMaster_StatusID" Association="Self.FK_GradingMaster_StatusMaster_StatusID">
+      <End Role="StatusMaster" EntitySet="StatusMaster" />
+      <End Role="GradingMaster" EntitySet="GradingMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RankMaster_QuarterMaster_QuarterID" Association="Self.FK_RankMaster_QuarterMaster_QuarterID">
+      <End Role="QuarterMaster" EntitySet="QuarterMaster" />
+      <End Role="RankMaster" EntitySet="RankMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RankMaster_RankMaster_BrokerNameID" Association="Self.FK_RankMaster_RankMaster_BrokerNameID">
+      <End Role="BrokerNameMaster" EntitySet="BrokerNameMaster" />
+      <End Role="RankMaster" EntitySet="RankMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScreenAssignDetails_ModuleMaster_ModuleID" Association="Self.FK_ScreenAssignDetails_ModuleMaster_ModuleID">
+      <End Role="ModuleMaster" EntitySet="ModuleMaster" />
+      <End Role="ScreenAssignDetails" EntitySet="ScreenAssignDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScreenAssignDetails_ScreenMaster_ScreenID" Association="Self.FK_ScreenAssignDetails_ScreenMaster_ScreenID">
+      <End Role="ScreenMaster" EntitySet="ScreenMaster" />
+      <End Role="ScreenAssignDetails" EntitySet="ScreenAssignDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScreenMaster_ModuleMaster_ModuleID" Association="Self.FK_ScreenMaster_ModuleMaster_ModuleID">
+      <End Role="ModuleMaster" EntitySet="ModuleMaster" />
+      <End Role="ScreenMaster" EntitySet="ScreenMaster" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_BrokerConfig_QuarterMaster" Association="Self.FK_tbl_BrokerConfig_QuarterMaster">
+      <End Role="QuarterMaster" EntitySet="QuarterMaster" />
+      <End Role="BrokerConfig" EntitySet="BrokerConfig" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VoteMaster_GradingMaster_GradingID" Association="Self.FK_VoteMaster_GradingMaster_GradingID">
+      <End Role="GradingMaster" EntitySet="GradingMaster" />
+      <End Role="VoteMaster" EntitySet="VoteMaster" />
+    </AssociationSet>
+    <AssociationSet Name="VoteMaster_BrokerNameId_BrokerNameID" Association="Self.VoteMaster_BrokerNameId_BrokerNameID">
+      <End Role="BrokerNameMaster" EntitySet="BrokerNameMaster" />
+      <End Role="VoteMaster" EntitySet="VoteMaster" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

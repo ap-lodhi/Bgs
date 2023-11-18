@@ -1,0 +1,17 @@
+ƒ
+>>
+ Error Occurred:--5/17/2023 2:26:13 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0208.INDPRD01.PROD.OUTLOOK.COM 2023-05-17T08:56:12.186Z 08DB567F9C5EE9FA]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name)\¦
+>>
+ Error Occurred:--5/17/2023 4:10:04 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in C:\final.net_project\BGS_Latest_20sep\BGS\BrokerRankReport.aspx.cs:line 512\

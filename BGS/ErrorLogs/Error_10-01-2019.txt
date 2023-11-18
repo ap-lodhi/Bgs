@@ -1,0 +1,33 @@
+²
+>>
+ Error Occurred:--1/10/2019 2:44:53 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\²
+>>
+ Error Occurred:--1/10/2019 4:53:07 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\²
+>>
+ Error Occurred:--1/10/2019 5:34:57 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\²
+>>
+ Error Occurred:--1/10/2019 6:50:36 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\

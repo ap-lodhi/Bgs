@@ -1,0 +1,81 @@
+þ
+>>
+ Error Occurred:--08/03/2018 7:01:06 PM>>
+A field or property with the name 'DofaCode' was not found on the selected data source.\>>
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BGS.BrokerMaster.PopulateBroker() in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 708\þ
+>>
+ Error Occurred:--08/03/2018 7:03:55 PM>>
+A field or property with the name 'DofaCode' was not found on the selected data source.\>>
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BGS.BrokerMaster.PopulateBroker() in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 708\þ
+>>
+ Error Occurred:--08/03/2018 7:07:47 PM>>
+A field or property with the name 'DofaCode' was not found on the selected data source.\>>
+   at System.Web.UI.WebControls.BoundField.TryGetSimplePropertyValue(Object dataItem, Object& data)
+   at System.Web.UI.WebControls.BoundField.GetValue(Control controlContainer)
+   at System.Web.UI.WebControls.BoundField.OnDataBindField(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   at System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   at System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   at System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BGS.BrokerMaster.PopulateBroker() in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 708\ñ
+>>
+ Error Occurred:--08/03/2018 7:28:38 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerMaster.EditBroker(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 560\ñ
+>>
+ Error Occurred:--08/03/2018 7:29:16 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerMaster.EditBroker(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 560\×
+>>
+ Error Occurred:--08/03/2018 7:46:52 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 582
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 300\

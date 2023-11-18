@@ -1,0 +1,33 @@
+®$
+>>
+ Error Occurred:--5/17/2023 6:27:15 PM>>
+ERROR INSystem.Data.SqlClient.SqlException (0x80131904): Cursorfetch: The number of variables declared in the INTO list must match that of selected columns.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BGS.Datalayer.Insertupdatevoter(DataTable dt1) in C:\final.net_project\BGS_Latest_20sep\BGS\Data\DataLayer.cs:line 902
+   at BGS.VoterScreen.SaveVoter(DataTable dt) in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 559
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 248
+ClientConnectionId:3eb5d193-79ed-4c23-a871-c020b5a695cd
+Error Number:16924,State:1,Class:16\>>
+ERROR INSystem.Data.SqlClient.SqlException (0x80131904): Cursorfetch: The number of variables declared in the INTO list must match that of selected columns.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at BGS.Datalayer.Insertupdatevoter(DataTable dt1) in C:\final.net_project\BGS_Latest_20sep\BGS\Data\DataLayer.cs:line 902
+   at BGS.VoterScreen.SaveVoter(DataTable dt) in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 559
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in C:\final.net_project\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 248
+ClientConnectionId:3eb5d193-79ed-4c23-a871-c020b5a695cd
+Error Number:16924,State:1,Class:16\

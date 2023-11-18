@@ -1,0 +1,23 @@
+±
+>>
+ Error Occurred:--07/12/2018 12:05:10 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e)\±
+>>
+ Error Occurred:--07/12/2018 12:10:45 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e)\€
+>>
+ Error Occurred:--07/12/2018 4:33:20 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 452\€
+>>
+ Error Occurred:--07/12/2018 6:27:12 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 452\

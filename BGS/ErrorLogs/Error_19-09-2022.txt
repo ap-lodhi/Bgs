@@ -1,0 +1,24 @@
+®
+>>
+ Error Occurred:--9/19/2022 6:33:53 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0222.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1023\´
+>>
+ Error Occurred:--9/19/2022 6:35:35 PM>>
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index\>>
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.UI.WebControls.GridViewRowCollection.get_Item(Int32 index)
+   at BGS.VoterScreen.Submit(Object sender, EventArgs e) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 273\®
+>>
+ Error Occurred:--9/19/2022 6:39:22 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0210.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1023\

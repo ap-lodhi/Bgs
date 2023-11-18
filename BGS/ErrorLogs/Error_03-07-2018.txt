@@ -1,0 +1,38 @@
+¨
+>>
+ Error Occurred:--07/03/2018 12:26:25 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 656\
+>>
+ Error Occurred:--07/03/2018 12:26:25 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 452\–
+>>
+ Error Occurred:--07/03/2018 12:39:53 PM>>
+Mailbox unavailable. The server response was: This is a submission only port. You must authenticate before sending mail\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 656\
+>>
+ Error Occurred:--07/03/2018 12:39:53 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 452\€
+>>
+ Error Occurred:--07/03/2018 1:43:04 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.SaveGradingMaster_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 452\°
+>>
+ Error Occurred:--07/03/2018 5:16:06 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerEmailListing.btnSaveUserEmail_Click(Object sender, EventArgs e)\°
+>>
+ Error Occurred:--07/03/2018 5:16:41 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerEmailListing.btnSaveUserEmail_Click(Object sender, EventArgs e)\þ
+>>
+ Error Occurred:--07/03/2018 5:19:00 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerEmailListing.btnSaveUserEmail_Click(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerEmailListing.aspx.cs:line 732\

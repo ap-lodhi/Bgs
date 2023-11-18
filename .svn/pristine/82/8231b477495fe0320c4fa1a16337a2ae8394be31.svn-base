@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <p>Dear Sir/Madam,</p>
+    <p>
+        Please find attached details of votes for your firm collated on <b>{#LastQuarterMonth}</b> for the quarter <b>{#Last1QuarterMonthYearName}</b>, which will apply for <b>{#CurrentQuarterMonthYearName}</b>.
+    </p>
+    <p>
+        We have tried to ensure that the votes reflect the value-addition and other support that you have extended to us.  The process and the voting methodology is same as last period. However, if you need any further clarification, you may please contact me on 6678 6663.
+    </p>
+    <p>
+        The contents of this letter are meant for your internal purpose only.
+    </p>
+    <p>
+        <i>Note (1) :  'Market Share' represents market share for your analyst for that sector only. Please note that our analyst's vote is not necessarily equally weighted across the different sectors covered by them. Thus for example, if Cement and FMCG are covered by the same analyst, she may choose to assign her votes in a 30:70 ratio, indicating her priorities for that vote-period. Other votes are given by Fund Managers. The last column indicates the number of analysts voted for on the sell-side in a sector. </i>
+    </p>
+    <p>
+        <i>Note (2) : Attached Tabular Information represents votes polled of Equity Funds & Equity Research, however Final Votes, Rankings & Brokerage are determined by the above as well as votes given by the Dealing Team.</i>
+    </p>
+    <p>
+        <i style="color: blue; font-weight: bolder">Note (3) : As always for all meetings, you are requested to send a calendar invite to all attendees so that we have a record of all the meetings. Also please attach all reports and presentations to be discussed, in the calendar invite. For any new/ unlisted Company management meeting, Please attach detailed financials (Latest Quarterly results, Balance Sheet & Cash Flow statements) and Company presentation, if available, to enable preparation/ constructive discussion.</i>
+    </p>
+    <p>
+        <i style="color: blue">Note (4) : Please Send us the List of All Non-Secondary Market Initiatives (including IPO, OFS, Buyback) being handled by your Investment Banking arm and confirm whether Numbered Research Reports have been sent to us in the attached Excel format. </i>
+    </p>
+    <br />
+    Thanks&nbsp;&&nbsp;Regards,<br />
+    <div>
+        Sharwan Goyal, CFA | Portfolio Analyst | DOSR | UTI AMC Ltd
+    </div>
+    <div>
+        UTI Tower, 'Gn' Block, Bandra-Kurla Complex, Bandra (East), Mumbai 400 051.
+    </div>
+    <div>
+        LandLine:- 022- 66786663 Email:sharwan.goyal@uti.co.in  Website: <a href="http://www.utimf.com">www.utimf.com</a>
+    </div>
+    <div>
+        &nbsp;"Print this mail only if absolutely necessary. Save Paper. Save Trees."
+    
+    </div>
+    <div>
+        &nbsp;This is a system generated mail.
+    </div>
+</body>
+</html>

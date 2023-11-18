@@ -1,0 +1,63 @@
+Ÿ
+>>
+ Error Occurred:--10/29/2018 4:17:36 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\Ÿ
+>>
+ Error Occurred:--10/29/2018 4:18:24 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\Ÿ
+>>
+ Error Occurred:--10/29/2018 4:19:50 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\Ÿ
+>>
+ Error Occurred:--10/29/2018 4:20:16 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\Ÿ
+>>
+ Error Occurred:--10/29/2018 4:20:59 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\Ÿ
+>>
+ Error Occurred:--10/29/2018 4:23:15 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\Ÿ
+>>
+ Error Occurred:--10/29/2018 4:23:43 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\LoginMaster.aspx.cs:line 197\•
+>>
+ Error Occurred:--10/29/2018 5:42:35 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.ParseDouble(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDouble(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 457\

@@ -1,0 +1,320 @@
+°
+>>
+ Error Occurred:--1/3/2019 10:38:54 AM>>
+Mailbox unavailable. The server response was: <sachin.tri@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\ò
+>>
+ Error Occurred:--1/3/2019 11:30:42 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 11:30:42 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 11:40:11 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 11:40:11 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 11:50:26 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 11:50:26 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\°
+>>
+ Error Occurred:--1/3/2019 11:51:11 AM>>
+Mailbox unavailable. The server response was: <sachin.tri@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\”
+>>
+ Error Occurred:--1/3/2019 11:53:25 AM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 574\ò
+>>
+ Error Occurred:--1/3/2019 11:58:49 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 11:58:49 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\”
+>>
+ Error Occurred:--1/3/2019 12:03:36 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 574\ò
+>>
+ Error Occurred:--1/3/2019 12:11:17 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:11:17 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:20:50 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:20:51 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:21:14 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:21:14 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:21:51 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:21:51 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\™
+>>
+ Error Occurred:--1/3/2019 12:24:03 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\Data\DataLayer.cs:line 681
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 497\ò
+>>
+ Error Occurred:--1/3/2019 12:30:55 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:30:55 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:30:55 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:30:55 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\”
+>>
+ Error Occurred:--1/3/2019 12:31:56 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 574\”
+>>
+ Error Occurred:--1/3/2019 12:34:00 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 574\ò
+>>
+ Error Occurred:--1/3/2019 12:39:04 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:39:04 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:42:46 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ò
+>>
+ Error Occurred:--1/3/2019 12:42:46 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\
+>>
+ Error Occurred:--1/3/2019 12:46:55 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 435\
+>>
+ Error Occurred:--1/3/2019 12:47:00 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 435\ž
+>>
+ Error Occurred:--1/3/2019 12:47:46 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\²
+>>
+ Error Occurred:--1/3/2019 12:51:05 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\ž
+>>
+ Error Occurred:--1/3/2019 12:52:21 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\²
+>>
+ Error Occurred:--1/3/2019 12:52:25 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\ñ
+>>
+ Error Occurred:--1/3/2019 1:07:10 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 1:07:10 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 2:09:25 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 2:09:25 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 2:17:30 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 2:17:30 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\
+>>
+ Error Occurred:--1/3/2019 2:26:27 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\
+>>
+ Error Occurred:--1/3/2019 3:08:49 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\ñ
+>>
+ Error Occurred:--1/3/2019 3:09:20 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 3:09:20 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 3:20:51 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 3:20:51 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 3:47:57 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 3:47:57 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\´
+>>
+ Error Occurred:--1/3/2019 3:48:25 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 801\é
+>>
+ Error Occurred:--1/3/2019 4:21:02 PM>>
+Column 'CreatedBy' does not belong to table .\>>
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 196\ñ
+>>
+ Error Occurred:--1/3/2019 4:31:29 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 4:31:29 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 4:34:25 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 4:34:44 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\ñ
+>>
+ Error Occurred:--1/3/2019 4:39:45 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 822\´
+>>
+ Error Occurred:--1/3/2019 6:32:27 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:32:49 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:33:10 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:33:31 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:33:52 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:34:13 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:34:34 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:34:55 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:35:16 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:35:38 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/3/2019 6:35:59 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\

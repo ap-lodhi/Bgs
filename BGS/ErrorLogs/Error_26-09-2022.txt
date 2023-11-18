@@ -1,0 +1,46 @@
+¶
+>>
+ Error Occurred:--9/26/2022 12:57:12 PM>>
+The result of a query cannot be enumerated more than once.\>>
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetIListSourceListInternal()
+   at System.Data.Entity.Core.Objects.ObjectResult.System.ComponentModel.IListSource.GetList()
+   at System.Web.UI.DataSourceHelper.GetResolvedDataSource(Object dataSource, String dataMember)
+   at System.Web.UI.WebControls.ReadOnlyDataSource.System.Web.UI.IDataSource.GetView(String viewName)
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.GetData()
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BGS.GradingMaster.GetGradingMaster(String DeptID)\„
+>>
+ Error Occurred:--9/26/2022 1:38:13 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\VoterScreen.aspx.cs:line 748\®
+>>
+ Error Occurred:--9/26/2022 2:32:03 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0182.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1024\®
+>>
+ Error Occurred:--9/26/2022 2:51:44 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN3PR01CA0139.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1026\®
+>>
+ Error Occurred:--9/26/2022 2:56:14 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0019.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in C:\Users\SKC\Desktop\BGS_NEW\BGS_Latest_20sep\BGS\GradingMaster.aspx.cs:line 1026\

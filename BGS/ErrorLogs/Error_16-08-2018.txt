@@ -1,0 +1,28 @@
+½
+>>
+ Error Occurred:--08/16/2018 11:14:06 AM>>
+Server does not support secure connections.\>>
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 722
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 349\±
+>>
+ Error Occurred:--08/16/2018 11:34:06 AM>>
+Server does not support secure connections.\>>
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password)
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e)\±
+>>
+ Error Occurred:--08/16/2018 11:36:24 AM>>
+Server does not support secure connections.\>>
+   at System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   at System.Net.Mail.SmtpClient.GetConnection()
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password)
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e)\

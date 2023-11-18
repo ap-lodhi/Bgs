@@ -1,0 +1,85 @@
+×
+>>
+ Error Occurred:--08/09/2018 2:13:06 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 642
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 320\ˆ
+>>
+ Error Occurred:--08/09/2018 2:14:49 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:14:51 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:14:52 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:14:52 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:14:53 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:14:54 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:15:59 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:23:57 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 2:25:24 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 443\ˆ
+>>
+ Error Occurred:--08/09/2018 3:53:39 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 476\ˆ
+>>
+ Error Occurred:--08/09/2018 3:53:40 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 476\ˆ
+>>
+ Error Occurred:--08/09/2018 3:58:48 PM>>
+'ddlUserType' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value\>>
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 476\×
+>>
+ Error Occurred:--08/09/2018 4:03:04 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 675
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 353\

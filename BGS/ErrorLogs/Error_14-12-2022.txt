@@ -1,0 +1,67 @@
+½
+>>
+ Error Occurred:--12/14/2022 1:01:32 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0206.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 367\½
+>>
+ Error Occurred:--12/14/2022 1:07:46 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN3PR01CA0134.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 367\¼
+>>
+ Error Occurred:--12/14/2022 1:24:37 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [BMXP287CA0005.INDP287.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 367\‘
+>>
+ Error Occurred:--12/14/2022 2:16:18 PM>>
+ExecuteScalar requires an open and available Connection. The connection's current state is connecting.\>>
+   at System.Data.SqlClient.SqlConnection.GetOpenConnection(String method)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at BGS.Datalayer.IsUserValidForAccess(String EmpID, String PageName) in D:\final.net_project\BGS_Latest_20sep\BGS\Data\DataLayer.cs:line 1152\½
+>>
+ Error Occurred:--12/14/2022 2:20:37 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN3PR01CA0069.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 367\¼
+>>
+ Error Occurred:--12/14/2022 2:27:07 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 367\½
+>>
+ Error Occurred:--12/14/2022 4:06:23 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN2PR01CA0088.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 369\½
+>>
+ Error Occurred:--12/14/2022 4:17:44 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN3PR01CA0116.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 369\

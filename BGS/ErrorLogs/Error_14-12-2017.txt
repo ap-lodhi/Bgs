@@ -1,0 +1,193 @@
+ò
+>>
+ Error Occurred:--12/14/2017 12:50:57 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\Ú
+>>
+ Error Occurred:--12/14/2017 12:57:49 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 1:04:48 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 2:30:57 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\ñ
+>>
+ Error Occurred:--12/14/2017 2:41:10 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\Ù
+>>
+ Error Occurred:--12/14/2017 2:42:26 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 3:10:10 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 3:27:56 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 4:19:18 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 4:59:22 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:06:45 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:12:12 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:12:52 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:15:38 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:16:56 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:17:44 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:20:42 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:21:20 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:24:04 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:27:06 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:29:25 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:31:53 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:37:12 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:38:32 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:39:39 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\ñ
+>>
+ Error Occurred:--12/14/2017 5:41:32 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\Ù
+>>
+ Error Occurred:--12/14/2017 5:42:05 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:42:54 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:43:27 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\Ù
+>>
+ Error Occurred:--12/14/2017 5:44:29 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\ñ
+>>
+ Error Occurred:--12/14/2017 5:46:56 PM>>
+The server is not operational.
+\>>
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_NativeObject()
+   at BGS.LoginMaster_Page.CheckUser() in D:\Prakash\BGS\BGS\LoginMaster.aspx.cs:line 196\Ù
+>>
+ Error Occurred:--12/14/2017 5:49:42 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerRankReport.aspx.cs:line 219\™
+>>
+ Error Occurred:--12/14/2017 6:17:38 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BGS.BrokerMaster.CancelBrokerGrading(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 619\™
+>>
+ Error Occurred:--12/14/2017 6:19:08 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BGS.BrokerMaster.CancelBrokerGrading(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 619\

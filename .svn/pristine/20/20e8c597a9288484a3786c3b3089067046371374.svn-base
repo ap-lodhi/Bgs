@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+
+ p.MsoNormal
+	{margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	        margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+p.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+p.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+p.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+    </style>
+</head>
+<body>
+
+    <p class="MsoNormal">
+        <b style="mso-bidi-font-weight:normal">User Manual for Associates<o:p></o:p></b></p>
+    <p class="MsoNormal">
+        <b style="mso-bidi-font-weight:normal"><u>Add New User:<o:p></o:p></u></b></p>
+    <p class="MsoNormal">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoNormal">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpFirst" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Click on Add new user button.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Select the Employee type – Analyst , Economist, Sales, Corp Access , Strategist .</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>If Employee Type is – Analyst , then selecting a Sector is mandatory.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>List of sectors will be displayed in the dropdown, and user can select any one sectors from the list.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l0 level1 lfo1">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>If same analyst<span style="mso-spacerun:yes">&nbsp; </span>is assigned to multiple sectors, then user will have to add that user multiple times with different sectors.
+    </p>
+    <p class="MsoListParagraphCxSpMiddle">
+        For Example :<span style="mso-spacerun:yes">&nbsp; </span><b style="mso-bidi-font-weight:normal">Analyst A</b> is assigned to sector <b style="mso-bidi-font-weight:normal">Auto</b>, <b style="mso-bidi-font-weight:normal">Banks</b> and <b style="mso-bidi-font-weight:
+normal">AGRO<o:p></o:p></b></p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        Then user will have to add <b style="mso-bidi-font-weight:normal">Analyst A</b> separately for each sector. 3 Records will be displayed in the screen for Analyst A .</p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        <span style="mso-no-proof:yes"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum @0 1 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum 0 0 @1" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @2 1 2" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @3 21600 pixelWidth" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @3 21600 pixelHeight" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum @0 0 1" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @6 1 2" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @7 21600 pixelWidth" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum @8 21600 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="prod @7 21600 pixelHeight" xmlns:v="urn:schemas-microsoft-com:vml"/>
+  <v:f eqn="sum @10 21600 0" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect" xmlns:v="urn:schemas-microsoft-com:vml"/>
+ <o:lock v:ext="edit" aspectratio="t" xmlns:o="urn:schemas-microsoft-com:office:office"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75"
+ style='width:427.5pt;height:87pt;visibility:visible'>
+ <v:imagedata src="file:///C:\Users\admin\AppData\Local\Temp\msohtmlclip1\01\clip_image001.png"
+  o:title="" croptop="8588f" cropbottom="37454f" cropleft="735f" cropright="-3f" xmlns:v="urn:schemas-microsoft-com:vml"/>
+</v:shape><![endif]--><![if !vml]>
+        <img height="190" src="../Images/UserMannual/1.png" v:shapes="Picture_x0020_1" width="570" /><![endif]></span></p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        <b style="mso-bidi-font-weight:normal"><u>Edit existing User:<o:p></o:p></u></b></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:292.5pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Click on the Edit button given on the right side of the table.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:292.5pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>The selected record will be displayed in Editable mode .</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:292.5pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Edit the required data as shown in picture below, and click on Save button.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;text-indent:-.25in;mso-list:l1 level1 lfo2;tab-stops:292.5pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>The Record will be Edited and Saved successfully.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <span style="mso-no-proof:yes"><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_7" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:458.25pt;
+ height:159.75pt;visibility:visible'>
+ <v:imagedata src="file:///C:\Users\admin\AppData\Local\Temp\msohtmlclip1\01\clip_image005.png"
+  o:title="" croptop="16617f" cropbottom="9149f" cropright="1471f" xmlns:v="urn:schemas-microsoft-com:vml"/>
+</v:shape><![endif]--><![if !vml]>
+        <img height="213" src="../Images/UserMannual/2.png" v:shapes="Picture_x0020_7" width="611" /><![endif]></span></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <b style="mso-bidi-font-weight:normal"><u>Delete Existing User :<o:p></o:p></u></b></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        1.Click on Delete button , given on right side of the table.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        2.An Alert message will be displayed , for confirming the Delete.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        3.If user selects Yes, then the select record will be deleted from the Database , and Voter will not be able to see that record for Voting.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <b style="mso-bidi-font-weight:normal"><u>Uploading Excel sheet:<o:p></o:p></u></b></p>
+    <p class="MsoListParagraphCxSpMiddle" style="margin-left:.75in;mso-add-space:
+auto;tab-stops:292.5pt">
+        <b style="mso-bidi-font-weight:normal"><o:p>&nbsp;</o:p></b></p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:292.5pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:Calibri"><span style="mso-list:Ignore">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>If user wants to upload multiple records in a excel , then user can download the Excel Template by clicking on Download Template button.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="tab-stops:292.5pt">
+        <span style="mso-no-proof:yes"><!--[if gte vml 1]><v:shape id="Picture_x0020_10"
+ o:spid="_x0000_i1028" type="#_x0000_t75" style='width:437.25pt;height:77.25pt;
+ visibility:visible'>
+ <v:imagedata src="file:///C:\Users\admin\AppData\Local\Temp\msohtmlclip1\01\clip_image007.png"
+  o:title="" croptop="17754f" cropbottom="28532f" cropright="4300f" xmlns:v="urn:schemas-microsoft-com:vml"/>
+</v:shape><![endif]--><![if !vml]>
+        <img height="103" src="../Images/UserMannual/3.png" v:shapes="Picture_x0020_10" width="583" /><![endif]></span></p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">2.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>An excel file named <b style="mso-bidi-font-weight:
+normal">BrokerUploadFormat.xls </b><span style="mso-spacerun:yes">&nbsp;</span>will be downloaded in the system,it should get downloaded in your default Downloads folder.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">3.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>User will open the file, select the <b style="mso-bidi-font-weight:normal">Sector</b> from dropdown<span style="mso-spacerun:yes">&nbsp; </span>box<span style="mso-spacerun:yes">&nbsp; </span>given in excel, select the Employee type from dropdown , enter other details of employee.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">4.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Save the excel sheet in same format and same name ie<span style="mso-spacerun:yes">&nbsp; </span><b style="mso-bidi-font-weight:
+normal">BrokerUploadFormat.xls</b></p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">5.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Make sure that all the entries done in excel are correct.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">6.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>If any<span style="mso-spacerun:yes">&nbsp; </span>Analyst is added then Sector should also be selected.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">7.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>User can not enter any Sector other than specified in the dropdown list.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">8.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>If 1 analyst is handling multiple sectors , then multiple rows need to be added for that analyst.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">9.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>Only one Analyst per row will be added.</p>
+    <p class="MsoListParagraphCxSpMiddle" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">10.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><![endif]>Only 1 Sector per row will be added.</p>
+    <p class="MsoListParagraphCxSpLast" style="text-indent:-.25in;mso-list:l2 level1 lfo3;
+tab-stops:158.25pt">
+        <![if !supportLists]><span style="mso-bidi-font-family:
+Calibri"><span style="mso-list:Ignore">11.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp; </span></span></span><![endif]>Please check the screenshot below:</p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        <span style="mso-no-proof:yes"><!--[if gte vml 1]><v:shape id="Picture_x0020_16"
+ o:spid="_x0000_i1029" type="#_x0000_t75" style='width:456pt;height:160.5pt;
+ visibility:visible'>
+ <v:imagedata src="file:///C:\Users\admin\AppData\Local\Temp\msohtmlclip1\01\clip_image009.png"
+  o:title="" cropbottom="25734f" cropright="1722f" xmlns:v="urn:schemas-microsoft-com:vml"/>
+</v:shape><![endif]--><![if !vml]>
+        <img height="214" src="../Images/UserMannual/4.png" v:shapes="Picture_x0020_16" width="608" /><![endif]></span></p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        <o:p>&nbsp;</o:p></p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        12.Once the Excel sheet is updated properly and Saved in the system.</p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        13 Click on Upload File button.</p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        14.Click on Choose File , and browse the updated <b style="mso-bidi-font-weight:normal">BrokerUploadFormat.xls on your local system.<o:p></o:p></b></p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        15.Click on Upload<span style="mso-spacerun:yes">&nbsp; </span>file.</p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        16 The file will get uploaded successfully and all the records will be updated in the database.</p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        17.All the records that are upated in system , will be available for Voting.</p>
+    <p class="MsoNormal" style="margin-left:.25in;tab-stops:158.25pt">
+        <span style="mso-no-proof:yes"><!--[if gte vml 1]><v:shape id="Picture_x0020_19"
+ o:spid="_x0000_i1030" type="#_x0000_t75" style='width:456pt;height:69.75pt;
+ visibility:visible'>
+ <v:imagedata src="file:///C:\Users\admin\AppData\Local\Temp\msohtmlclip1\01\clip_image011.png"
+  o:title="" croptop="23339f" cropbottom="24832f" cropright="1722f" xmlns:v="urn:schemas-microsoft-com:vml"/>
+</v:shape><![endif]--><![if !vml]>
+        <img height="93" src="../Images/UserMannual/5.png" v:shapes="Picture_x0020_19" width="608" /><![endif]></span></p>
+
+</body>
+</html>

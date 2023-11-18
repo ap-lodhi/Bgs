@@ -1,0 +1,103 @@
+‰
+>>
+ Error Occurred:--12/14/2018 11:14:59 AM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at BGS.QuarterMaster.InsertQuarterMaster() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 124
+   at BGS.QuarterMaster.SaveQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 87\ƒ
+>>
+ Error Occurred:--12/14/2018 11:15:18 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.QuarterMaster.EditQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 61\ƒ
+>>
+ Error Occurred:--12/14/2018 11:15:22 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.QuarterMaster.EditQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 61\ƒ
+>>
+ Error Occurred:--12/14/2018 11:15:27 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.QuarterMaster.EditQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 61\ƒ
+>>
+ Error Occurred:--12/14/2018 11:15:33 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.QuarterMaster.EditQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 61\‰
+>>
+ Error Occurred:--12/14/2018 11:15:43 AM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at BGS.QuarterMaster.InsertQuarterMaster() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 124
+   at BGS.QuarterMaster.SaveQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 87\ƒ
+>>
+ Error Occurred:--12/14/2018 11:15:46 AM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.QuarterMaster.EditQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 61\‰
+>>
+ Error Occurred:--12/14/2018 11:20:05 AM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at BGS.BrokerMaster.CancelBrokerGrading(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerMaster.aspx.cs:line 643\‚
+>>
+ Error Occurred:--12/14/2018 3:11:12 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.QuarterMaster.EditQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 61\¼
+>>
+ Error Occurred:--12/14/2018 4:00:02 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 875\´
+>>
+ Error Occurred:--12/14/2018 4:08:43 PM>>
+Mailbox unavailable. The server response was: <daylynn.pinto@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 764\´
+>>
+ Error Occurred:--12/14/2018 5:57:27 PM>>
+Mailbox unavailable. The server response was: <shrawan.goyal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 764\´
+>>
+ Error Occurred:--12/14/2018 5:58:29 PM>>
+Mailbox unavailable. The server response was: <shrawan.goyal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 764\š
+>>
+ Error Occurred:--12/14/2018 6:02:32 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\Data\DataLayer.cs:line 646
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 485\‰
+>>
+ Error Occurred:--12/14/2018 6:02:44 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 553\ó
+>>
+ Error Occurred:--12/14/2018 6:02:48 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 889\ó
+>>
+ Error Occurred:--12/14/2018 6:03:03 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 889\

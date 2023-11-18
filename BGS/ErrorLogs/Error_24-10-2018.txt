@@ -1,0 +1,27 @@
+£
+>>
+ Error Occurred:--10/24/2018 5:50:44 PM>>
+Mailbox unavailable. The server response was: <testr@gmail.com> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 891\ï
+>>
+ Error Occurred:--10/24/2018 5:53:15 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.DeleteVote(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 631\ï
+>>
+ Error Occurred:--10/24/2018 5:53:19 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.DeleteVote(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 631\¬
+>>
+ Error Occurred:--10/24/2018 5:54:27 PM>>
+Mailbox unavailable. The server response was: <sachin.trivedi@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 891\ª
+>>
+ Error Occurred:--10/24/2018 5:54:34 PM>>
+Mailbox unavailable. The server response was: <parag.chavan@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMailReOpen(String strToEmailAdd, Boolean allowHTML, String name) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 891\

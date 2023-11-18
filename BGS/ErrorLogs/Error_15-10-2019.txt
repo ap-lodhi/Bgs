@@ -1,0 +1,13 @@
+š
+>>
+ Error Occurred:--10/15/2019 12:34:39 PM>>
+Mailbox unavailable. The server response was: <test@gmail.com> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\UTI W\Development\BGS_Latest\BGS\GradingMaster.aspx.cs:line 884\š
+>>
+ Error Occurred:--10/15/2019 12:45:15 PM>>
+Mailbox unavailable. The server response was: <test@gmail.com> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\UTI W\Development\BGS_Latest\BGS\GradingMaster.aspx.cs:line 884\

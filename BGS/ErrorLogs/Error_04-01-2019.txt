@@ -1,0 +1,149 @@
+ž
+>>
+ Error Occurred:--1/4/2019 10:12:06 AM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\ž
+>>
+ Error Occurred:--1/4/2019 10:14:12 AM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\ž
+>>
+ Error Occurred:--1/4/2019 10:15:44 AM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\ž
+>>
+ Error Occurred:--1/4/2019 10:17:51 AM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\²
+>>
+ Error Occurred:--1/4/2019 10:17:57 AM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at BGS.BrokerRankReport.btnExportPdf_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 512\ž
+>>
+ Error Occurred:--1/4/2019 11:13:56 AM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\ž
+>>
+ Error Occurred:--1/4/2019 12:26:07 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\ñ
+>>
+ Error Occurred:--1/4/2019 2:20:49 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 843\
+>>
+ Error Occurred:--1/4/2019 2:29:07 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\´
+>>
+ Error Occurred:--1/4/2019 2:50:19 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\²
+>>
+ Error Occurred:--1/4/2019 3:19:19 PM>>
+Mailbox unavailable. The server response was: <shrawan.goyal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\²
+>>
+ Error Occurred:--1/4/2019 3:44:38 PM>>
+Mailbox unavailable. The server response was: <vishal.chopda@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\´
+>>
+ Error Occurred:--1/4/2019 3:49:51 PM>>
+Mailbox unavailable. The server response was: <deepesh.agarwal@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\°
+>>
+ Error Occurred:--1/4/2019 3:52:55 PM>>
+Mailbox unavailable. The server response was: <nitin.jain2@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\²
+>>
+ Error Occurred:--1/4/2019 3:54:34 PM>>
+Mailbox unavailable. The server response was: <ritesh.rathod@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\“
+>>
+ Error Occurred:--1/4/2019 3:55:37 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 574\¶
+>>
+ Error Occurred:--1/4/2019 3:57:21 PM>>
+Mailbox unavailable. The server response was: <amit.premchandani@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\²
+>>
+ Error Occurred:--1/4/2019 3:59:01 PM>>
+Mailbox unavailable. The server response was: <daylynn.pinto@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\®
+>>
+ Error Occurred:--1/4/2019 4:00:54 PM>>
+Mailbox unavailable. The server response was: <preethirs@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\±
+>>
+ Error Occurred:--1/4/2019 4:03:11 PM>>
+Mailbox unavailable. The server response was: <parag.chavan@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\¯
+>>
+ Error Occurred:--1/4/2019 4:05:35 PM>>
+Mailbox unavailable. The server response was: <sachin.tri@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\“
+>>
+ Error Occurred:--1/4/2019 4:06:16 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 576\¯
+>>
+ Error Occurred:--1/4/2019 4:38:21 PM>>
+Mailbox unavailable. The server response was: <ajay.tyagi@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\¯
+>>
+ Error Occurred:--1/4/2019 5:50:26 PM>>
+Mailbox unavailable. The server response was: <kamal.gada@uti.co.in> No such user here\>>
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.GradingMaster.SendMail(String strToEmailAdd, Boolean allowHTML, String name) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\GradingMaster.aspx.cs:line 817\
+>>
+ Error Occurred:--1/4/2019 6:04:25 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\
+>>
+ Error Occurred:--1/4/2019 6:53:04 PM>>
+Index was outside the bounds of the array.\>>
+   at BGS.BrokerRankReport.GetMovementRankString(String quarter) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 649
+   at BGS.BrokerRankReport.btnSearch_Click(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\BrokerRankReport.aspx.cs:line 219\

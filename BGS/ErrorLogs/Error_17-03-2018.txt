@@ -1,0 +1,43 @@
+ä
+>>
+ Error Occurred:--03/17/2018 3:57:29 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 583\ä
+>>
+ Error Occurred:--03/17/2018 3:57:34 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 583\ä
+>>
+ Error Occurred:--03/17/2018 3:57:46 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 583\ä
+>>
+ Error Occurred:--03/17/2018 3:58:30 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Prakash\BGS\BGS\BrokerMaster.aspx.cs:line 583\ë
+>>
+ Error Occurred:--03/17/2018 6:36:32 PM>>
+The result of a query cannot be enumerated more than once.\>>
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetIListSourceListInternal()
+   at System.Data.Entity.Core.Objects.ObjectResult.System.ComponentModel.IListSource.GetList()
+   at System.Web.UI.DataSourceHelper.GetResolvedDataSource(Object dataSource, String dataMember)
+   at System.Web.UI.WebControls.ReadOnlyDataSource.System.Web.UI.IDataSource.GetView(String viewName)
+   at System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   at System.Web.UI.WebControls.DataBoundControl.GetData()
+   at System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at System.Web.UI.WebControls.GridView.DataBind()
+   at BGS.GradingMaster.GetGradingMaster(String DeptID) in D:\Prakash\BGS\BGS\GradingMaster.aspx.cs:line 283\

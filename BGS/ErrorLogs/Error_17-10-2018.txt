@@ -1,0 +1,25 @@
+œ
+>>
+ Error Occurred:--10/17/2018 5:11:55 PM>>
+Column 'BrokerName' does not belong to table .\>>
+   at System.Data.DataColumnCollection.Remove(String name)
+   at BGS.VoterScreen.SaveVoter(DataTable dt) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 321
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\VoterScreen.aspx.cs:line 197\Ž
+>>
+ Error Occurred:--10/17/2018 6:40:55 PM>>
+Column 'BrokerName' does not belong to table .\>>
+   at System.Data.DataColumnCollection.Remove(String name)
+   at BGS.VoterScreen.SaveVoter(DataTable dt)
+   at BGS.VoterScreen.SaveForLater(Object sender, EventArgs e)\å	
+>>
+ Error Occurred:--10/17/2018 7:00:33 PM>>
+Invalid operation. The connection is closed.\>>
+   at System.Data.ProviderBase.DbConnectionClosed.CreateReferenceCollection()
+   at System.Data.ProviderBase.DbConnectionInternal.AddWeakReference(Object value, Int32 tag)
+   at System.Data.SqlClient.SqlConnection.AddWeakReference(Object value, Int32 tag)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at BGS.Datalayer.IsUserValidForAccess(String EmpID, String PageName)\

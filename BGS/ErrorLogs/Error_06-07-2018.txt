@@ -1,0 +1,9 @@
+¬
+>>
+ Error Occurred:--07/06/2018 11:09:19 AM>>
+The result of a query cannot be enumerated more than once.\>>
+   at System.Data.Entity.Core.Objects.ObjectResult`1.EnsureCanEnumerateResults()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetDbEnumerator()
+   at System.Data.Entity.Core.Objects.ObjectResult`1.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at BGS.BrokerMaster.btnSaveBrokerMaster(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\BrokerMaster.aspx.cs:line 621\

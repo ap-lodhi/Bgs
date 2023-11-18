@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7021e8d099c449708d5f3461a7119063" Name="Diagram1">
+        <EntityTypeShape EntityType="BGSModel.BrokerAnalyst" Width="1.5" PointX="3.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.BrokerMaster" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.BrokerNameMaster" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.BrokerTypeMaster" Width="1.5" PointX="0.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.DepartmentMaster" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.ErrorLog" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.GradingMaster" Width="1.5" PointX="0.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.GradingMaster_Archive" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.ModuleMaster" Width="1.5" PointX="8.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.QuarterMaster" Width="1.5" PointX="3.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.RankMaster" Width="1.5" PointX="6" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.RoleMaster" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.ScreenAssignDetail" Width="1.5" PointX="13.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.ScreenMaster" Width="1.5" PointX="11" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.SectorMaster" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.StatusMaster" Width="1.5" PointX="1.5" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.UserMaster" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.UserType" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.VoteMaster" Width="1.5" PointX="3" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BGSModel.WeightMaster" Width="1.5" PointX="8.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="BGSModel.FK_BrokerAnalyst_StatusMaster_StatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_BrokerMaster_BrokerMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_BrokerMaster_BrokerMasterType_BrokerTypeName" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_BrokerMaster_BrokerNameMaster_BrokerNameId" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_RankMaster_RankMaster_BrokerNameID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_UserMaster_BrokerNameMaster_BrokerNameID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.VoteMaster_BrokerNameId_BrokerNameID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_UserMaster_DepartmentMaster_DeptID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_GradingMaster_QuarterMaster_QuarterID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_GradingMaster_StatusMaster_StatusID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_VoteMaster_GradingMaster_GradingID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_ScreenAssignDetails_ModuleMaster_ModuleID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_ScreenMaster_ModuleMaster_ModuleID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_RankMaster_QuarterMaster_QuarterID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_UserMaster_RoleMaster_RoleID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_ScreenAssignDetails_ScreenMaster_ScreenID" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.FK_UserMaster_UserMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="BGSModel.UserMaster_UserTypeMaster_UserTypeID" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BGSModel.BrokerConfig" Width="1.5" PointX="6" PointY="14.125" />
+        <AssociationConnector Association="BGSModel.FK_BrokerConfig_BrokerNameMaster" />
+        <AssociationConnector Association="BGSModel.FK_tbl_BrokerConfig_QuarterMaster" />
+        <EntityTypeShape EntityType="BGSModel.DOD_DOFAReason" Width="2.5" PointX="13.375" PointY="0.875" />
+        <AssociationConnector Association="BGSModel.FK__VoteMaste__Reaso__318258D2" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,9 @@
+;
+>>
+ Error Occurred:--5/23/2023 11:22:31 AM>>
+Ok\>>
+Ok\å
+>>
+ Error Occurred:--5/23/2023 11:22:34 AM>>
+Query response :{ EMPID = 4003, ISFORCE = True, ISUTI = True, ROLEID = 5, Isactive = True, USERNAME = Ayush Jain, UserTypeName = Admin, GradingID = 0 }\>>
+Query response :{ EMPID = 4003, ISFORCE = True, ISUTI = True, ROLEID = 5, Isactive = True, USERNAME = Ayush Jain, UserTypeName = Admin, GradingID = 0 }\

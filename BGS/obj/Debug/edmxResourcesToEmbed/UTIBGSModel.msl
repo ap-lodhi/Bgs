@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BGSModelStoreContainer" CdmEntityContainer="BGSEntities">
+    <EntitySetMapping Name="BrokerAnalysts">
+      <EntityTypeMapping TypeName="BGSModel.BrokerAnalyst">
+        <MappingFragment StoreEntitySet="BrokerAnalyst">
+          <ScalarProperty Name="BrokerAnalystId" ColumnName="BrokerAnalystId" />
+          <ScalarProperty Name="BrokerID" ColumnName="BrokerID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="VoteID" ColumnName="VoteID" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BrokerMasters">
+      <EntityTypeMapping TypeName="BGSModel.BrokerMaster">
+        <MappingFragment StoreEntitySet="BrokerMaster">
+          <ScalarProperty Name="BrokerID" ColumnName="BrokerID" />
+          <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+          <ScalarProperty Name="BrokerTypeID" ColumnName="BrokerTypeID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BrokerNameMasters">
+      <EntityTypeMapping TypeName="BGSModel.BrokerNameMaster">
+        <MappingFragment StoreEntitySet="BrokerNameMaster">
+          <ScalarProperty Name="Broker_DofaCode" ColumnName="Broker_DofaCode" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="EmailStatus" ColumnName="EmailStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BrokerTypeMasters">
+      <EntityTypeMapping TypeName="BGSModel.BrokerTypeMaster">
+        <MappingFragment StoreEntitySet="BrokerTypeMaster">
+          <ScalarProperty Name="BrokerTypeID" ColumnName="BrokerTypeID" />
+          <ScalarProperty Name="BrokerType" ColumnName="BrokerType" />
+          <ScalarProperty Name="BrokerTypeValue" ColumnName="BrokerTypeValue" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DepartmentMasters">
+      <EntityTypeMapping TypeName="BGSModel.DepartmentMaster">
+        <MappingFragment StoreEntitySet="DepartmentMaster">
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorLogs">
+      <EntityTypeMapping TypeName="BGSModel.ErrorLog">
+        <MappingFragment StoreEntitySet="ErrorLogs">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PAGE_NAME" ColumnName="PAGE_NAME" />
+          <ScalarProperty Name="ERROR_CODE" ColumnName="ERROR_CODE" />
+          <ScalarProperty Name="ERROR_DETAIL" ColumnName="ERROR_DETAIL" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="Created_By" ColumnName="Created_By" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GradingMasters">
+      <EntityTypeMapping TypeName="BGSModel.GradingMaster">
+        <MappingFragment StoreEntitySet="GradingMaster">
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="IsSend" ColumnName="IsSend" />
+          <ScalarProperty Name="IsVoterSubmit" ColumnName="IsVoterSubmit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GradingMaster_Archive">
+      <EntityTypeMapping TypeName="BGSModel.GradingMaster_Archive">
+        <MappingFragment StoreEntitySet="GradingMaster_Archive">
+          <ScalarProperty Name="AutoID" ColumnName="AutoID" />
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="IsSend" ColumnName="IsSend" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ModuleMasters">
+      <EntityTypeMapping TypeName="BGSModel.ModuleMaster">
+        <MappingFragment StoreEntitySet="ModuleMaster">
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuarterMasters">
+      <EntityTypeMapping TypeName="BGSModel.QuarterMaster">
+        <MappingFragment StoreEntitySet="QuarterMaster">
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterYear" ColumnName="QuarterYear" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RankMasters">
+      <EntityTypeMapping TypeName="BGSModel.RankMaster">
+        <MappingFragment StoreEntitySet="RankMaster">
+          <ScalarProperty Name="RankId" ColumnName="RankId" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="VoteId" ColumnName="VoteId" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="TotalScores" ColumnName="TotalScores" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleMasters">
+      <EntityTypeMapping TypeName="BGSModel.RoleMaster">
+        <MappingFragment StoreEntitySet="RoleMaster">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScreenAssignDetails">
+      <EntityTypeMapping TypeName="BGSModel.ScreenAssignDetail">
+        <MappingFragment StoreEntitySet="ScreenAssignDetails">
+          <ScalarProperty Name="ScreenAssignId" ColumnName="ScreenAssignId" />
+          <ScalarProperty Name="ModuleId" ColumnName="ModuleId" />
+          <ScalarProperty Name="ScreenId" ColumnName="ScreenId" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScreenMasters">
+      <EntityTypeMapping TypeName="BGSModel.ScreenMaster">
+        <MappingFragment StoreEntitySet="ScreenMaster">
+          <ScalarProperty Name="ScreenID" ColumnName="ScreenID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ScreenName" ColumnName="ScreenName" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="IsParent" ColumnName="IsParent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SectorMasters">
+      <EntityTypeMapping TypeName="BGSModel.SectorMaster">
+        <MappingFragment StoreEntitySet="SectorMaster">
+          <ScalarProperty Name="SectorId" ColumnName="SectorId" />
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StatusMasters">
+      <EntityTypeMapping TypeName="BGSModel.StatusMaster">
+        <MappingFragment StoreEntitySet="StatusMaster">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMasters">
+      <EntityTypeMapping TypeName="BGSModel.UserMaster">
+        <MappingFragment StoreEntitySet="UserMaster">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="Isforce" ColumnName="Isforce" />
+          <ScalarProperty Name="IsUTI" ColumnName="IsUTI" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypes">
+      <EntityTypeMapping TypeName="BGSModel.UserType">
+        <MappingFragment StoreEntitySet="UserType">
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserType1" ColumnName="UserType" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="LoginType" ColumnName="LoginType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VoteMasters">
+      <EntityTypeMapping TypeName="BGSModel.VoteMaster">
+        <MappingFragment StoreEntitySet="VoteMaster">
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+          <ScalarProperty Name="VoteID" ColumnName="VoteID" />
+          <ScalarProperty Name="Vote" ColumnName="Vote" />
+          <ScalarProperty Name="BrokerID" ColumnName="BrokerID" />
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="AnalystName" ColumnName="AnalystName" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+          <ScalarProperty Name="BrokerNameId" ColumnName="BrokerNameId" />
+          <ScalarProperty Name="FMComments" ColumnName="FMComments" />
+          <ScalarProperty Name="RMComment" ColumnName="RMComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WeightMasters">
+      <EntityTypeMapping TypeName="BGSModel.WeightMaster">
+        <MappingFragment StoreEntitySet="WeightMaster">
+          <ScalarProperty Name="WeightID" ColumnName="WeightID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AuthenticateDublicateVoter" FunctionName="BGSModel.Store.AuthenticateDublicateVoter" />
+    <FunctionImportMapping FunctionImportName="BGD_GetBrokerNameMaster" FunctionName="BGSModel.Store.BGD_GetBrokerNameMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGD_GetBrokerNameMaster_Result">
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_AssignScreen_linking" FunctionName="BGSModel.Store.BGS_AssignScreen_linking" />
+    <FunctionImportMapping FunctionImportName="BGS_AssignScreenToUser" FunctionName="BGSModel.Store.BGS_AssignScreenToUser" />
+    <FunctionImportMapping FunctionImportName="BGS_AuthenticateBrokerMaster" FunctionName="BGSModel.Store.BGS_AuthenticateBrokerMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_AuthenticateGrading" FunctionName="BGSModel.Store.BGS_AuthenticateGrading" />
+    <FunctionImportMapping FunctionImportName="BGS_BindBrokerName" FunctionName="BGSModel.Store.BGS_BindBrokerName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_BindBrokerName_Result">
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_BindQuarter" FunctionName="BGSModel.Store.BGS_BindQuarter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_BindQuarter_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="QuarterDate" ColumnName="QuarterDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_BindSectorMaster" FunctionName="BGSModel.Store.BGS_BindSectorMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_BindSectorMaster_Result">
+          <ScalarProperty Name="SectorId" ColumnName="SectorId" />
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_BindUserMaster" FunctionName="BGSModel.Store.BGS_BindUserMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_BindVoter" FunctionName="BGSModel.Store.BGS_BindVoter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_BindVoter_Result">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_BrokerMaster" FunctionName="BGSModel.Store.BGS_BrokerMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_CalculateRank" FunctionName="BGSModel.Store.BGS_CalculateRank">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_CalculateRank_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_ChangePassword" FunctionName="BGSModel.Store.BGS_ChangePassword" />
+    <FunctionImportMapping FunctionImportName="BGS_CheckRankInsert" FunctionName="BGSModel.Store.BGS_CheckRankInsert" />
+    <FunctionImportMapping FunctionImportName="BGS_CheckUtiUser" FunctionName="BGSModel.Store.BGS_CheckUtiUser" />
+    <FunctionImportMapping FunctionImportName="BGS_DeleteBrokerMaster" FunctionName="BGSModel.Store.BGS_DeleteBrokerMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_DeleteQuarterMaster" FunctionName="BGSModel.Store.BGS_DeleteQuarterMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_DeleteUsers" FunctionName="BGSModel.Store.BGS_DeleteUsers" />
+    <FunctionImportMapping FunctionImportName="BGS_DeleteVoteMaster" FunctionName="BGSModel.Store.BGS_DeleteVoteMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_GetAnalystName" FunctionName="BGSModel.Store.BGS_GetAnalystName" />
+    <FunctionImportMapping FunctionImportName="BGS_GetAsssignScreens" FunctionName="BGSModel.Store.BGS_GetAsssignScreens">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetAsssignScreens_Result">
+          <ScalarProperty Name="ROW" ColumnName="ROW" />
+          <ScalarProperty Name="MODULENAME" ColumnName="MODULENAME" />
+          <ScalarProperty Name="SCREENNAME" ColumnName="SCREENNAME" />
+          <ScalarProperty Name="SCREENID" ColumnName="SCREENID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ScreenAssignId" ColumnName="ScreenAssignId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBokerNameID" FunctionName="BGSModel.Store.BGS_GetBokerNameID" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerAnalyst" FunctionName="BGSModel.Store.BGS_GetBrokerAnalyst" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerDetailsByBrokerNameBrokerAnalyst" FunctionName="BGSModel.Store.BGS_GetBrokerDetailsByBrokerNameBrokerAnalyst">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerDetailsByBrokerNameBrokerAnalyst_Result">
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerId" FunctionName="BGSModel.Store.BGS_GetBrokerId" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerMaster" FunctionName="BGSModel.Store.BGS_GetBrokerMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerMaster_Result">
+          <ScalarProperty Name="BrokerID" ColumnName="BrokerID" />
+          <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+          <ScalarProperty Name="BrokerTypeID" ColumnName="BrokerTypeID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+          <ScalarProperty Name="BrokerType" ColumnName="BrokerType" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="DofaCode" ColumnName="DofaCode" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerMaxLimit" FunctionName="BGSModel.Store.BGS_GetBrokerMaxLimit" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerName" FunctionName="BGSModel.Store.BGS_GetBrokerName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerName_Result">
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerNameForBrokerMster" FunctionName="BGSModel.Store.BGS_GetBrokerNameForBrokerMster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerNameForBrokerMster_Result">
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerOrFirmName" FunctionName="BGSModel.Store.BGS_GetBrokerOrFirmName" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerRanking" FunctionName="BGSModel.Store.BGS_GetBrokerRanking">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerRanking_Result">
+          <ScalarProperty Name="QuarterName" ColumnName="QuarterName" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="TotalScores" ColumnName="TotalScores" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="RankGroup" ColumnName="RankGroup" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerReportByCurrentQuarter" FunctionName="BGSModel.Store.BGS_GetBrokerReportByCurrentQuarter" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerReportByLastQuarter" FunctionName="BGSModel.Store.BGS_GetBrokerReportByLastQuarter" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerTypeMasterData" FunctionName="BGSModel.Store.BGS_GetBrokerTypeMasterData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerTypeMasterData_Result">
+          <ScalarProperty Name="BrokerType" ColumnName="BrokerType" />
+          <ScalarProperty Name="BrokerTypeID" ColumnName="BrokerTypeID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerWiseQuarterRank" FunctionName="BGSModel.Store.BGS_GetBrokerWiseQuarterRank" />
+    <FunctionImportMapping FunctionImportName="BGS_GetCuurentQuarterVoterStatus" FunctionName="BGSModel.Store.BGS_GetCuurentQuarterVoterStatus">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetCuurentQuarterVoterStatus_Result">
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="Vote" ColumnName="Vote" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetEmailListing" FunctionName="BGSModel.Store.BGS_GetEmailListing">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetEmailListing_Result">
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="EmailStatus" ColumnName="EmailStatus" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetError" FunctionName="BGSModel.Store.BGS_GetError" />
+    <FunctionImportMapping FunctionImportName="BGS_GetGradingMaster" FunctionName="BGSModel.Store.BGS_GetGradingMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetGradingMaster_Result">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+          <ScalarProperty Name="IsConfirm" ColumnName="IsConfirm" />
+          <ScalarProperty Name="IsSend" ColumnName="IsSend" />
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetLastQuarterNameById" FunctionName="BGSModel.Store.BGS_GetLastQuarterNameById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetLastQuarterNameById_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetPerBrokerRankStatus" FunctionName="BGSModel.Store.BGS_GetPerBrokerRankStatus">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetPerBrokerRankStatus_Result">
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="PeriodReview" ColumnName="PeriodReview" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetQuarterMaster" FunctionName="BGSModel.Store.BGS_GetQuarterMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetQuarterMaster_Result">
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterYear" ColumnName="QuarterYear" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetQuarterName" FunctionName="BGSModel.Store.BGS_GetQuarterName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetQuarterName_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetQuarterNameById" FunctionName="BGSModel.Store.BGS_GetQuarterNameById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetQuarterNameById_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetQuarterName2ById" FunctionName="BGSModel.Store.BGS_GetQuarterName2ById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetQuarterNameById_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetQuarterNameDuteDate" FunctionName="BGSModel.Store.BGS_GetQuarterNameDuteDate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetQuarterNameDuteDate_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="QuarterID" ColumnName="QuarterID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetQuarterWiseBrokerReport" FunctionName="BGSModel.Store.BGS_GetQuarterWiseBrokerReport" />
+    <FunctionImportMapping FunctionImportName="BGS_GetRABrokerName" FunctionName="BGSModel.Store.BGS_GetRABrokerName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetRABrokerName_Result">
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameId" ColumnName="BrokerNameId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetRoleDeptDetails" FunctionName="BGSModel.Store.BGS_GetRoleDeptDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetRoleDeptDetails_Result">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetSector" FunctionName="BGSModel.Store.BGS_GetSector">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetSector_Result">
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+          <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetSectorWiseBrokerData" FunctionName="BGSModel.Store.BGS_GetSectorWiseBrokerData" />
+    <FunctionImportMapping FunctionImportName="BGS_GetUser" FunctionName="BGSModel.Store.BGS_GetUser">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetUser_Result">
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetUserDetails" FunctionName="BGSModel.Store.BGS_GetUserDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetUserDetails_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="Isforce" ColumnName="Isforce" />
+          <ScalarProperty Name="IsUTI" ColumnName="IsUTI" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetUserDetailsForVoter" FunctionName="BGSModel.Store.BGS_GetUserDetailsForVoter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetUserDetailsForVoter_Result">
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="IsVoterSubmit" ColumnName="IsVoterSubmit" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetUserTypes" FunctionName="BGSModel.Store.BGS_GetUserTypes">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetUserTypes_Result">
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="LoginType" ColumnName="LoginType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetVoterByCurrentQuarter" FunctionName="BGSModel.Store.BGS_GetVoterByCurrentQuarter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetVoterByCurrentQuarter_Result">
+          <ScalarProperty Name="SectorID" ColumnName="SectorID" />
+          <ScalarProperty Name="VoteID" ColumnName="VoteID" />
+          <ScalarProperty Name="Vote" ColumnName="Vote" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="BrokerID" ColumnName="BrokerID" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="BrokerNameID" ColumnName="BrokerNameID" />
+          <ScalarProperty Name="AnalystName" ColumnName="AnalystName" />
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetVoterByLastQuarter" FunctionName="BGSModel.Store.BGS_GetVoterByLastQuarter">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetVoterByLastQuarter_Result">
+          <ScalarProperty Name="VoteID" ColumnName="VoteID" />
+          <ScalarProperty Name="Vote" ColumnName="Vote" />
+          <ScalarProperty Name="BrokerID" ColumnName="BrokerID" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DelStatus" ColumnName="DelStatus" />
+          <ScalarProperty Name="MaxLimit" ColumnName="MaxLimit" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="AnalystName" ColumnName="AnalystName" />
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="DueDate" ColumnName="DueDate" />
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetVoterName" FunctionName="BGSModel.Store.BGS_GetVoterName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetVoterName_Result">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetVoterSector" FunctionName="BGSModel.Store.BGS_GetVoterSector">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetVoterSector_Result">
+          <ScalarProperty Name="SectorId" ColumnName="SectorId" />
+          <ScalarProperty Name="SectorName" ColumnName="SectorName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetWeightMaster" FunctionName="BGSModel.Store.BGS_GetWeightMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_InsertNewQuarterGrading" FunctionName="BGSModel.Store.BGS_InsertNewQuarterGrading" />
+    <FunctionImportMapping FunctionImportName="BGS_InsertRank" FunctionName="BGSModel.Store.BGS_InsertRank" />
+    <FunctionImportMapping FunctionImportName="BGS_InsertUpdateUsers" FunctionName="BGSModel.Store.BGS_InsertUpdateUsers" />
+    <FunctionImportMapping FunctionImportName="BGS_IsRankSent" FunctionName="BGSModel.Store.BGS_IsRankSent" />
+    <FunctionImportMapping FunctionImportName="BGS_IsVendorValid" FunctionName="BGSModel.Store.BGS_IsVendorValid" />
+    <FunctionImportMapping FunctionImportName="BGS_QuarterMaster" FunctionName="BGSModel.Store.BGS_QuarterMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_ReopenGradingprocess" FunctionName="BGSModel.Store.BGS_ReopenGradingprocess" />
+    <FunctionImportMapping FunctionImportName="BGS_SaveGradingMaster" FunctionName="BGSModel.Store.BGS_SaveGradingMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_SaveWeightMaster" FunctionName="BGSModel.Store.BGS_SaveWeightMaster" />
+    <FunctionImportMapping FunctionImportName="BGS_SearchUser" FunctionName="BGSModel.Store.BGS_SearchUser" />
+    <FunctionImportMapping FunctionImportName="BGS_UpdateEmailStatus" FunctionName="BGSModel.Store.BGS_UpdateEmailStatus" />
+    <FunctionImportMapping FunctionImportName="BGS_UpdateVoteMasterStatus" FunctionName="BGSModel.Store.BGS_UpdateVoteMasterStatus" />
+    <FunctionImportMapping FunctionImportName="BGS_User_StatusChange" FunctionName="BGSModel.Store.BGS_User_StatusChange" />
+    <FunctionImportMapping FunctionImportName="BGS_WeightMaster" FunctionName="BGSModel.Store.BGS_WeightMaster" />
+    <FunctionImportMapping FunctionImportName="Check_UserAuthentication" FunctionName="BGSModel.Store.Check_UserAuthentication">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.Check_UserAuthentication_Result">
+          <ScalarProperty Name="ROLEID" ColumnName="ROLEID" />
+          <ScalarProperty Name="ISFORCE" ColumnName="ISFORCE" />
+          <ScalarProperty Name="EMPID" ColumnName="EMPID" />
+          <ScalarProperty Name="ISUTI" ColumnName="ISUTI" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+          <ScalarProperty Name="DEPTID" ColumnName="DEPTID" />
+          <ScalarProperty Name="Isactive" ColumnName="Isactive" />
+          <ScalarProperty Name="UserTypeName" ColumnName="UserTypeName" />
+          <ScalarProperty Name="GradingID" ColumnName="GradingID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetGradingStatus" FunctionName="BGSModel.Store.GetGradingStatus" />
+    <FunctionImportMapping FunctionImportName="GetMenuItem_Employee" FunctionName="BGSModel.Store.GetMenuItem_Employee">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.GetMenuItem_Employee_Result">
+          <ScalarProperty Name="ModuleName" ColumnName="ModuleName" />
+          <ScalarProperty Name="ScreenName" ColumnName="ScreenName" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="IsParent" ColumnName="IsParent" />
+          <ScalarProperty Name="ModuleId" ColumnName="ModuleId" />
+          <ScalarProperty Name="ScreenId" ColumnName="ScreenId" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="IsPageValidForUser" FunctionName="BGSModel.Store.IsPageValidForUser" />
+    <FunctionImportMapping FunctionImportName="IsUserExists" FunctionName="BGSModel.Store.IsUserExists" />
+    <FunctionImportMapping FunctionImportName="SP_CheckUserEmployeeId" FunctionName="BGSModel.Store.SP_CheckUserEmployeeId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.SP_CheckUserEmployeeId_Result">
+          <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+          <ScalarProperty Name="ISUTI" ColumnName="ISUTI" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="BrokerConfigs">
+      <EntityTypeMapping TypeName="BGSModel.BrokerConfig">
+        <MappingFragment StoreEntitySet="BrokerConfig">
+          <ScalarProperty Name="BrokerNameId" ColumnName="BrokerNameId" />
+          <ScalarProperty Name="IsEmailSend" ColumnName="IsEmailSend" />
+          <ScalarProperty Name="QuarterId" ColumnName="QuarterId" />
+          <ScalarProperty Name="BrokerConfigId" ColumnName="BrokerConfigId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetALLBrokerAnalyst" FunctionName="BGSModel.Store.BGS_GetALLBrokerAnalyst" />
+    <FunctionImportMapping FunctionImportName="BGS_GetBrokerUploadData" FunctionName="BGSModel.Store.BGS_GetBrokerUploadData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetBrokerUploadData_Result">
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="Sector" ColumnName="Sector" />
+          <ScalarProperty Name="BrokerType" ColumnName="BrokerType" />
+          <ScalarProperty Name="AnalystName" ColumnName="AnalystName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ContactNumber" ColumnName="ContactNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="BGS_InsertBrokerConfigforBrokerEmail" FunctionName="BGSModel.Store.BGS_InsertBrokerConfigforBrokerEmail" />
+    <FunctionImportMapping FunctionImportName="BGS_InsertUpdateVoteMAster" FunctionName="BGSModel.Store.BGS_InsertUpdateVoteMAster" />
+    <FunctionImportMapping FunctionImportName="BGS_IsAuthenticateBroker" FunctionName="BGSModel.Store.BGS_IsAuthenticateBroker" />
+    <FunctionImportMapping FunctionImportName="BGS_UploadBrokerAnalystDetails" FunctionName="BGSModel.Store.BGS_UploadBrokerAnalystDetails" />
+    <EntitySetMapping Name="DOD_DOFAReason">
+      <EntityTypeMapping TypeName="BGSModel.DOD_DOFAReason">
+        <MappingFragment StoreEntitySet="DOD_DOFAReason">
+          <ScalarProperty Name="ReasonName" ColumnName="ReasonName" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="BGS_GetDOD_DOFAReason" FunctionName="BGSModel.Store.BGS_GetDOD_DOFAReason">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BGSModel.BGS_GetDOD_DOFAReason_Result1">
+          <ScalarProperty Name="ReasonName" ColumnName="ReasonName" />
+          <ScalarProperty Name="ReasonID" ColumnName="ReasonID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

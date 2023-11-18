@@ -1,0 +1,13 @@
+﻿   	a.side-menu1:link{color:Black;font-size:10px;text-decoration:none;}
+	a.side-menu1:visited{color:Black;font-size:10px;text-decoration:none;}
+	a.side-menu1:hover{color:Blue;font-size:10px;text-decoration:underline;}
+	a.menu2:link{color:Black;font-size:12px;text-decoration:none;}
+	a.menu2:visited{color:Black;font-size:12px;text-decoration:none;}
+	a.menu2:hover{color:Blue;font-size:12px;text-decoration:none;}
+	a.menu3:link{color:Black;font-size:12px;text-decoration:underline;}
+	a.menu3:visited{color:Black;font-size:12px;text-decoration:underline;}
+	a.menu3:hover{color:Blue;font-size:12px;text-decoration:underline;}
+	/*a.menu1:link{color:Black;font-size:14px;text-decoration:none;}
+	a.menu1:visited{color:Aqua;font-size:14px;text-decoration:none;}
+	a.menu1:hover{color:#14A0F1;font-size:14px;text-decoration:none;}*/
+	

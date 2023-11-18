@@ -1,0 +1,406 @@
+‚
+>>
+ Error Occurred:--11/03/2018 3:33:41 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1507
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1509\‚
+>>
+ Error Occurred:--11/03/2018 3:34:02 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1507
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1509\‚
+>>
+ Error Occurred:--11/03/2018 3:34:15 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1507
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1509\‚
+>>
+ Error Occurred:--11/03/2018 3:34:31 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1507
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1509\‚
+>>
+ Error Occurred:--11/03/2018 3:56:13 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1560
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1562\‚
+>>
+ Error Occurred:--11/03/2018 3:56:13 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1560
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1562\‚
+>>
+ Error Occurred:--11/03/2018 3:56:56 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1560
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1562\Þ
+>>
+ Error Occurred:--11/03/2018 3:57:19 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 3:57:21 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 3:57:23 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 3:57:29 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 3:57:30 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\‚
+>>
+ Error Occurred:--11/03/2018 3:59:41 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1510
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1512\‚
+>>
+ Error Occurred:--11/03/2018 3:59:55 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1510
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1512\‚
+>>
+ Error Occurred:--11/03/2018 4:01:09 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1510
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1512\‚
+>>
+ Error Occurred:--11/03/2018 4:01:19 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1510
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1512\°
+>>
+ Error Occurred:--11/03/2018 4:01:28 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\Data\DataLayer.cs:line 646
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 381\‚
+>>
+ Error Occurred:--11/03/2018 4:01:48 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1510
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1512\‚
+>>
+ Error Occurred:--11/03/2018 4:04:26 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__64_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1510
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1512\‚
+>>
+ Error Occurred:--11/03/2018 4:16:36 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1560
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1562\‚
+>>
+ Error Occurred:--11/03/2018 4:17:05 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1560
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1562\ù
+>>
+ Error Occurred:--11/03/2018 4:21:48 PM>>
+Column 'BrokerName' does not belong to table .\>>
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 809\ù
+>>
+ Error Occurred:--11/03/2018 4:21:55 PM>>
+Column 'BrokerName' does not belong to table .\>>
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 809\‚
+>>
+ Error Occurred:--11/03/2018 4:41:48 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1603
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1605\þ
+>>
+ Error Occurred:--11/03/2018 4:41:51 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\‚
+>>
+ Error Occurred:--11/03/2018 4:43:26 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1603
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1605\þ
+>>
+ Error Occurred:--11/03/2018 4:43:29 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\þ
+>>
+ Error Occurred:--11/03/2018 4:43:32 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\þ
+>>
+ Error Occurred:--11/03/2018 4:43:33 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\þ
+>>
+ Error Occurred:--11/03/2018 4:43:34 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\þ
+>>
+ Error Occurred:--11/03/2018 4:43:34 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\‚
+>>
+ Error Occurred:--11/03/2018 4:44:07 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1603
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1605\þ
+>>
+ Error Occurred:--11/03/2018 4:44:57 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\‚
+>>
+ Error Occurred:--11/03/2018 4:46:12 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1603
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1605\þ
+>>
+ Error Occurred:--11/03/2018 4:46:23 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 891\‚
+>>
+ Error Occurred:--11/03/2018 4:47:37 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1603
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1605\ª
+>>
+ Error Occurred:--11/03/2018 4:51:28 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e)\ª
+>>
+ Error Occurred:--11/03/2018 4:51:42 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e)\‚
+>>
+ Error Occurred:--11/03/2018 5:01:20 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1572
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1574\Þ
+>>
+ Error Occurred:--11/03/2018 5:01:24 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 5:01:26 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 5:01:26 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\Þ
+>>
+ Error Occurred:--11/03/2018 5:01:56 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<AddNewRecord>b__36_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 361
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.AddNewRecord(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 363\°
+>>
+ Error Occurred:--11/03/2018 5:29:11 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\Data\DataLayer.cs:line 646
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 443\‚
+>>
+ Error Occurred:--11/03/2018 5:29:23 PM>>
+Cannot cast DBNull.Value to type 'System.Int32'. Please use a nullable type.\>>
+   at System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   at System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   at BGS.VoterScreen.<>c.<txtDescDOD_DOFA_OnTextChanged>b__65_1(DataRow C) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1573
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.<ExceptIterator>d__72`1.MoveNext()
+   at BGS.VoterScreen.txtDescDOD_DOFA_OnTextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 1575\”
+>>
+ Error Occurred:--11/03/2018 5:29:28 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 511\þ
+>>
+ Error Occurred:--11/03/2018 5:29:57 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 861\þ
+>>
+ Error Occurred:--11/03/2018 5:30:02 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 861\°
+>>
+ Error Occurred:--11/03/2018 5:32:00 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.Datalayer.GetMaxLimit(String BrokerName) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\Data\DataLayer.cs:line 646
+   at BGS.VoterScreen.txtGgridBrokerName_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 443\”
+>>
+ Error Occurred:--11/03/2018 5:32:07 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 511\þ
+>>
+ Error Occurred:--11/03/2018 5:32:10 PM>>
+Input string was not in a correct format.Couldn't store <> in MaxLimit Column.  Expected type is Int32.\>>
+   at System.Data.DataColumn.set_Item(Int32 record, Object value)
+   at System.Data.DataRow.set_Item(DataColumn column, Object value)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at BGS.VoterScreen.AddNewRowToGrid(Int32 index) in C:\Users\Virendra Pandit\Desktop\UTI_Project\Change_Code\BGS\BGS\VoterScreen.aspx.cs:line 861\

@@ -1,0 +1,7 @@
+×
+>>
+ Error Occurred:--07/16/2018 4:43:55 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 581
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 299\

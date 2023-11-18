@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginMaster.master.cs" Inherits="BGS.LoginMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="Ajax" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<link href="../CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>UTI Broker Grading System </title>
+    <%--<link href="../css/template.css" rel="stylesheet" type="text/css" />--%>
+    <%--<link href='<%=ResolveUrl("~/CSS/StyleSheet.css")%>' rel="stylesheet" type="text/css" />  
+    <link href='<%=ResolveUrl("~/CSS/styles.css")%>' rel="stylesheet" type="text/css" />
+    <link href='<%=ResolveUrl("~/CSS/style_menu.css")%>' rel="stylesheet" type="text/css" />
+    <link href='<%=ResolveUrl("~/CSS/template.css")%>' rel="stylesheet" type="text/css" />--%>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="MBBS,Entrance,Orbit,orbit,IOM,iom,MOE,moe,BPKIHS,bpkihs,PAHS,pahs" />
+    <meta name="rights" content="" />
+    <meta name="language" content="en-GB" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Orbit MBBS Preparation, Discovering a Doctor in You, Medical Entrance Preparation" />
+    <meta name="generator" content="Joomla! 1.6 - Open Source Content Management" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+    <link href="../CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/template.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/style.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+
+        function openNewWindows() {
+
+            window.open("http://www.cylsys.com");
+        }
+    </script>
+    <style type="text/css">
+        .social_media
+        {
+            height: 45px;
+        }
+    </style>
+</head>
+<body class="page_bg">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="onlyone" runat="server">
+        </asp:ScriptManager>
+        <div class="page">
+            <div class="wrapper">
+                <div class="logo">
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <img src="./Images/uti_mutual_fund.jpg" alt="" title="UTI MF Logo" width="120px" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+     <%--   <asp:Panel ID="Panel1" BorderStyle="solid" BorderWidth="0" runat="server" Height="30px" Width="100%" CssClass="FooterTable">
+            <table width="100%">
+                <tr>
+                    <td align="left" style="width: 50%">UTI AMC LTD </td>
+                    <td align="right">
+                        <asp:HyperLink ID="Hpcylsys" runat="server" onclick="openNewWindows()" Style="cursor: pointer; text-decoration: underline;" ForeColor="DarkOrange">Powered By Cylsys</asp:HyperLink></td>
+                </tr>
+            </table>
+
+
+        </asp:Panel>
+        <Ajax:AlwaysVisibleControlExtender ScrollEffectDuration="111111" HorizontalSide="right" HorizontalOffset="0"
+            VerticalSide="Bottom" VerticalOffset="0" TargetControlID="Panel1" ID="AlwaysVisibleControlExtender1" runat="server" />--%>
+    </form>
+</body>

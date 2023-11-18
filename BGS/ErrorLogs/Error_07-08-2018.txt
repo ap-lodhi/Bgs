@@ -1,0 +1,41 @@
+“
+>>
+ Error Occurred:--08/07/2018 6:53:36 PM>>
+Column '' does not belong to table .\>>
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e)\Ë
+>>
+ Error Occurred:--08/07/2018 6:57:16 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password)
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e)\Ù
+>>
+ Error Occurred:--08/07/2018 7:00:55 PM>>
+Column '' does not belong to table .\>>
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BGS.UserMaster_Page.EditUserDetails(Object sender, EventArgs e) in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\UserMaster.aspx.cs:line 414\Ë
+>>
+ Error Occurred:--08/07/2018 7:14:07 PM>>
+Failure sending mail.\>>
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.UserMaster_Page.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String strloginId, String Password)
+   at BGS.UserMaster_Page.SaveUserDetails(Object sender, EventArgs e)\ä
+>>
+ Error Occurred:--08/07/2018 8:13:35 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 692\ä
+>>
+ Error Occurred:--08/07/2018 8:13:43 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 692\ä
+>>
+ Error Occurred:--08/07/2018 8:13:56 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate() in D:\Shashi\UTI_Project\BGS_File\BGS\BGS\GradingMaster.aspx.cs:line 692\›
+>>
+ Error Occurred:--08/07/2018 8:18:02 PM>>
+Object reference not set to an instance of an object.\>>
+   at BGS.GradingMaster.GetQuarterNameDueDate()\

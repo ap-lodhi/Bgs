@@ -1,0 +1,18 @@
+ˆ
+>>
+ Error Occurred:--12/26/2018 2:03:20 PM>>
+Thread was being aborted.\>>
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at BGS.QuarterMaster.InsertQuarterMaster() in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 124
+   at BGS.QuarterMaster.SaveQuarter(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\QuarterMaster.aspx.cs:line 87\•
+>>
+ Error Occurred:--12/26/2018 7:27:18 PM>>
+Input string was not in a correct format.\>>
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at BGS.VoterScreen.txtGridVote_TextChanged(Object sender, EventArgs e) in D:\Tejarmayee\UTI Development Projects\BGS_Latest\BGS\VoterScreen.aspx.cs:line 564\

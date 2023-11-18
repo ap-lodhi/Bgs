@@ -1,0 +1,25 @@
+í
+>>
+ Error Occurred:--12/16/2022 12:05:45 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN3PR01CA0168.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName)\½
+>>
+ Error Occurred:--12/16/2022 12:13:29 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [BMXP287CA0009.INDP287.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 373\¾
+>>
+ Error Occurred:--12/16/2022 12:16:23 PM>>
+Error in processing. The server response was: 5.7.3 STARTTLS is required to send mail [PN3PR01CA0181.INDPRD01.PROD.OUTLOOK.COM]\>>
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at BGS.BrokerEmailListing.SendMail(String strToEmailAdd, Boolean allowHTML, String name, String brokerName) in D:\final.net_project\BGS_Latest_20sep\BGS\BrokerEmailListing.aspx.cs:line 373\
